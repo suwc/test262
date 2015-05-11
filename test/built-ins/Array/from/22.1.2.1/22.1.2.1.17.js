@@ -3,6 +3,7 @@
 
 /*---
 description: mapFn is attached to the TypedArray itself
+es6id: 22.1.2.1
 ---*/
 
 var array = [ 2, 4, 8, 16, 32, 64, 128 ];

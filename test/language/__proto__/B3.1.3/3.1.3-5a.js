@@ -6,6 +6,7 @@ description: >
     __proto__ in Object Initializer in JSON.parse creates own property
     __proto__
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

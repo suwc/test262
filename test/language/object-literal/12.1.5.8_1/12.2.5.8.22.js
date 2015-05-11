@@ -3,7 +3,7 @@
 
 /*---
 description: IdentifierReference from method args
-includes:
+es6id: 12.2.6
 ---*/
 
 function createObject(a, b) {

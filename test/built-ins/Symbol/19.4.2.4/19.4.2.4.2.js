@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.iterator has the attributes { [[Writable]]:false, [[Enumerable]]:false, [[Configurable]]:false }.
+es6id: 19.4.2.4
 ---*/
 
 var desc = Object.getOwnPropertyDescriptor(Symbol, 'iterator');

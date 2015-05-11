@@ -4,6 +4,7 @@
 /*---
 description: get Map.prototype.size Size of set containing ECMAScript values
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

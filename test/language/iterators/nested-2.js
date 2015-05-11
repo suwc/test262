@@ -5,6 +5,7 @@
 author: Murat Sutunc
 description: nested-2.js
 includes: [compareArray.js]
+es6id: 25.1
 ---*/
 
 var simpleIterator = {

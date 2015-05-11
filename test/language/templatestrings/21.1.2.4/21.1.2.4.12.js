@@ -3,6 +3,7 @@
 
 /*---
 description: String.raw(template,...substitutions) performs ToLength(template['raw'].length) which throws if length is a symbol primitive
+es6id: 12.2.9.1
 ---*/
 
 try {

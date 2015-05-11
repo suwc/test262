@@ -5,9 +5,10 @@
 description: >
     Testing Object keys cannot list new properties after
     preventExtension
-includes:
+includes: 
     - runTestCase.js
     - proxyLib.js
+es6id: 26.1
 ---*/
 
 function testcase() {

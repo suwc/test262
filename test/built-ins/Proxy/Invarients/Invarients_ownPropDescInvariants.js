@@ -5,9 +5,10 @@
 description: >
     Testing Object.getOwnPropertyDescriptor cannot return
     'non-existent' for non-configurable property
-includes:
+includes: 
     - runTestCase.js
     - proxyLib.js
+es6id: 26.1
 ---*/
 
 function testcase() {

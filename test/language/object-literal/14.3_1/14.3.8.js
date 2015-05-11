@@ -3,6 +3,7 @@
 
 /*---
 description: "[[MethodDefinition]] Get and set methods"
+es6id: 12.2.6
 ---*/
 
 var obj = {

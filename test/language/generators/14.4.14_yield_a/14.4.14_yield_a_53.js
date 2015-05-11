@@ -5,6 +5,7 @@
 description: Yield propertyname exists in the propertyname chain
 author: Nikhil Suryanarayanan
 flags: [noStrict]
+es6id: 14.4.14
 ---*/
 
 var obj = {

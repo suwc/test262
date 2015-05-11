@@ -4,6 +4,7 @@
 /*---
 description: 14.4 - Syntax - Generator Expression
 author: Nikhil Suryanarayanan
+es6id: 14.4
 ---*/
 
 var generator = function *gfoo() {}

@@ -4,6 +4,7 @@
 /*---
 description: Elements added after the call to from
 includes: [TypedArrayHelper.js]
+es6id: 22.2.2.1
 ---*/
 
 //

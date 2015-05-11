@@ -5,6 +5,7 @@
 description: >
     [[IdentifierReference]] IdentifierReference inside a string
     template
+es6id: 12.2.6
 ---*/
 
 var a = 10;

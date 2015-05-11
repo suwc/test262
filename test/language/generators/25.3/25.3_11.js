@@ -7,6 +7,7 @@ description: >
     value of the @@toStringTag property is the string value
     "Generator".
 author: Nikhil Suryanarayanan
+es6id: 25.3
 ---*/
 
 var iter = (function *(){})();

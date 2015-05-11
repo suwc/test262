@@ -4,6 +4,7 @@
 /*---
 description: arrow function array manipulations
 author: Nikhil Suryanrayanan
+es6id: 14.2
 ---*/
 
 var arr = ["check", 1];

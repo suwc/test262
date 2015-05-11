@@ -3,6 +3,7 @@
 
 /*---
 description: Basic test for binary literal
+es6id: 11.8.3
 ---*/
 
 var binArray = [0b0, 0B0, 0b1, 0B1, 0b10, 0B10, 0b11, 0B11, 0b100, 0B100, 0b101, 0B101, 0b110, 0B110, 0b111, 0B111, 0b1000, 0B1000];

@@ -3,6 +3,7 @@
 
 /*---
 description: Passing array Buffer
+es6id: 22.1.2.1
 ---*/
 
 var arrayBuffer = new ArrayBuffer([ 1, 2, 4, 8, 16, 32, 64, 128 ]);

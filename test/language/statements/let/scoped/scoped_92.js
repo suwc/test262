@@ -3,6 +3,7 @@
 
 /*---
 description: Using eval as an identifier in const statements is not an error
+es6id: 13.3.1
 ---*/
 
 try {

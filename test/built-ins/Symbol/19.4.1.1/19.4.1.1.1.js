@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol constructor performs ToString(description) when description is not undefined
+es6id: 19.4.1.1
 ---*/
 
 try {

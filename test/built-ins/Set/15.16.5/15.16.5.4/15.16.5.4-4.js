@@ -6,6 +6,7 @@ description: >
     Set.prototype.delete verify Same Value Algorithm implementation in
     delete
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

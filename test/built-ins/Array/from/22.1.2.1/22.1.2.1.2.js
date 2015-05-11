@@ -3,6 +3,7 @@
 
 /*---
 description: Passing a valid array
+es6id: 22.1.2.1
 ---*/
 
 var array = [ 0, 1, -2, 4, -8, 16, -32, 64, -128, 256, -512, 1024 ];

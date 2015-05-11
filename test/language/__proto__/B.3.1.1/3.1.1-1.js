@@ -4,6 +4,7 @@
 /*---
 description: Check if pseudo property Object.prototype.__proto__ exists
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

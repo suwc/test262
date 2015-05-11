@@ -3,6 +3,7 @@
 
 /*---
 description: function.caller
+es6id: 14.2
 ---*/
 
 function bar(){

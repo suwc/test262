@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: atat-iterator-2-17.js
+es6id: 25.1
 ---*/
 
 if (WeakMap.prototype[Symbol.iterator]) {

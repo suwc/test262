@@ -4,6 +4,7 @@
 /*---
 description: Literals are coerced to objects - Spreading null
 author: Nikhil Suryanarayanan
+es6id: 12.2.5.2
 ---*/
 
 var a = null;

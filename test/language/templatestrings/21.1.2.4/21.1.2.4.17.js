@@ -3,6 +3,7 @@
 
 /*---
 description: String.raw(template,...substitutions) inserts empty strings when we don't have enough substitutions
+es6id: 12.2.9.1
 ---*/
 
 var raw = { 'length': 2, 0: 'expected1', 1: 'expected2' };

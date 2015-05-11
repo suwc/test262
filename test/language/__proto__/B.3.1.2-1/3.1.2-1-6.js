@@ -4,6 +4,7 @@
 /*---
 description: "[[Get]] for __proto__ on user defined function"
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

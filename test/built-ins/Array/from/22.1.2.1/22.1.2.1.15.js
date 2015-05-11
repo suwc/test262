@@ -3,6 +3,7 @@
 
 /*---
 description: map is called by passing null for thisArg
+es6id: 22.1.2.1
 ---*/
 
 var arrayIndex = -1;

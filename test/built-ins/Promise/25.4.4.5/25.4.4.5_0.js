@@ -4,6 +4,7 @@
 /*---
 description: 25.4.4.6 - Promise.resolve
 author: Nikhil Suryanarayanan
+es6id: 25.4.4
 ---*/
 
 if(Promise.resolve === undefined)

@@ -5,6 +5,7 @@
 author: Murat Sutunc
 description: set-1-3.js
 includes: [compareArray.js]
+es6id: 23.2.5
 ---*/
 
 var test = [];

@@ -3,6 +3,7 @@
 
 /*---
 description: Add own property on Set
+es6id: 23.2
 ---*/
 
 Set.prop1 = 1;

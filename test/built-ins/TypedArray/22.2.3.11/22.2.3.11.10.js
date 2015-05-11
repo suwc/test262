@@ -4,6 +4,7 @@
 /*---
 description: predicate is invalid causes a TypeError
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.11
 ---*/
 
 var array = [ ];

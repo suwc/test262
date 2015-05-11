@@ -4,6 +4,7 @@
 /*---
 description: Calling from with a valid map function with thisArg
 includes: [TypedArrayHelper.js]
+es6id: 22.2.2.1
 ---*/
 
 //

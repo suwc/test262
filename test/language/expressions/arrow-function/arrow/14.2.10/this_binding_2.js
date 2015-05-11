@@ -4,6 +4,7 @@
 /*---
 description: this binding tests
 author: Nikhil Suryanarayanan
+es6id: 14.2
 ---*/
 
 var obj = () => {return this;}

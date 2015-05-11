@@ -2,11 +2,12 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-author : Kunal Pathak
+author: Kunal Pathak
 description: Testing Object.SetPrototypeOf Invarients
-includes:
+includes: 
     - runTestCase.js
     - proxyLib.js
+es6id: 26.1
 ---*/
 function testcase() {
     for (var i in objectStore) {

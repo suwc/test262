@@ -9,6 +9,7 @@ description: >
     StrictFormalParameters : FormalParameters are applied.
 author: Nikhil Suryanarayanan
 flags: [noStrict]
+es6id: 14.4
 ---*/
 
 function *foo(a,a) {}

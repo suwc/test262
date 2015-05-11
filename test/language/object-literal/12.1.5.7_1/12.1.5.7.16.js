@@ -5,6 +5,7 @@
 description: >
     [[ComputedPropertyName]] ComputedPropertyName has an undefined
     identifier in it
+es6id: 12.2.6
 ---*/
 
 try {

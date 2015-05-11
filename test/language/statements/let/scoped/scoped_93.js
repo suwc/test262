@@ -5,6 +5,7 @@
 description: >
     Using arguments as an identifier in const statements is not a
     redeclaration error
+es6id: 13.3.1
 ---*/
 
 try {

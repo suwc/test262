@@ -3,6 +3,7 @@
 
 /*---
 description: Add own property on Map
+es6id: 23.1
 ---*/
 
 Map.prop1 = 1;

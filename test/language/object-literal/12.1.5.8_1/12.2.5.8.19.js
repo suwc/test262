@@ -3,7 +3,7 @@
 
 /*---
 description: Computed property has its own object as the expression
-includes:
+es6id: 12.2.6
 ---*/
 
 var obj = {

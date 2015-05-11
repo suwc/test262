@@ -4,6 +4,7 @@
 /*---
 description: verify arguments object
 author: Nikhil Suryanarayanan
+es6id: 12.2.6.1
 ---*/
 
 function q(a,b,c,d){

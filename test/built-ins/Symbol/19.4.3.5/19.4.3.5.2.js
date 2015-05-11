@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.prototype[@@toStringTag] has the attributes { [[Writable]]:false, [[Enumerable]]:false, [[Configurable]]:true }.
+es6id: 19.4.3.5
 ---*/
 
 var desc = Object.getOwnPropertyDescriptor(Symbol.prototype, Symbol.toStringTag);

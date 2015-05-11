@@ -4,6 +4,7 @@
 /*---
 description: Yield in do while
 author: Nikhil Suryanarayanan
+es6id: 14.4.14
 ---*/
 
 var gfoo = function*(){

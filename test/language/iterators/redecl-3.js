@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: redecl-3.js
+es6id: 25.1
 ---*/
 
 var error;

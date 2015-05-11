@@ -3,6 +3,7 @@
 
 /*---
 description: Invoke spread on the arguement list
+es6id: 14.1
 ---*/
 
 var expectedArgsForBar = [2, 3, 4];

@@ -6,6 +6,7 @@ description: >
     get Set.prototype.size TypeError expected if thisArg does not have
     [[SetData]]
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

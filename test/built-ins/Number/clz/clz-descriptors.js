@@ -4,6 +4,7 @@
 /*---
 description: Testing descriptor property of Number.prototype.clz
 includes: [runTestCase.js]
+es6id: 20.1.2.2
 ---*/
 
 function modifyAndVerifyDescriptors(obj, prop) {

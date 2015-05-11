@@ -4,6 +4,7 @@
 /*---
 description: Passing a valid array
 includes: [TypedArrayHelper.js]
+es6id: 22.2.2.1
 ---*/
 
 var array = [ 0, 1, 2, 4, 8, 16, 32, 64, 127 ];

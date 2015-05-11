@@ -4,6 +4,7 @@
 /*---
 description: WeakMap.prototype.delete verification of function
 includes: [runTestCase.js]
+es6id: 23.3.3
 ---*/
 
 function testcase() {

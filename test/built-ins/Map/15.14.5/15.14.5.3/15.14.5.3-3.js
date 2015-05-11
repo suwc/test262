@@ -4,6 +4,7 @@
 /*---
 description: Map.prototype.delete verify return value
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

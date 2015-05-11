@@ -6,6 +6,7 @@ description: >
     It is an error to declare a function parameter and a let statement
     with the same identifier
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 function foo(a) {

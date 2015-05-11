@@ -4,6 +4,7 @@
 /*---
 description: Testing Symbol are unique and they are value types
 includes: [runTestCase.js]
+es6id: 19.4.3
 ---*/
 
 function testcase() {

@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.iterator is the well known symbol @@iterator
+es6id: 19.4.2.4
 ---*/
 
 if (typeof Symbol.iterator !== 'symbol') {

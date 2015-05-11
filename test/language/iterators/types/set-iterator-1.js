@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: set-iterator-1.js
+es6id: 23.2.5
 ---*/
 
 var error;

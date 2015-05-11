@@ -4,6 +4,7 @@
 /*---
 description: parser test cases of spread in array
 includes: [runTestCase.js]
+es6id: 12.2.6.1
 ---*/
 
 function testcase() {

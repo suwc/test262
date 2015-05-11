@@ -3,6 +3,7 @@
 
 /*---
 description: "[[Substitutions]] Weakmaps inside string template"
+es6id: 12.2.9.1
 ---*/
 
 var weakMap;

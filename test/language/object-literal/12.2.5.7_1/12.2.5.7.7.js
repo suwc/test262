@@ -5,6 +5,7 @@
 description: >
     [[ComputedPropertyName]] Computed property name with a library
     method invocation
+es6id: 12.2.6
 ---*/
 
 var str1 = "Lif", str2 = "e";

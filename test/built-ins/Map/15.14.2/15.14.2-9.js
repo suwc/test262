@@ -6,6 +6,7 @@ description: >
     Map Constructor called as function. Verify prototype is not a Map
     and resulting object has [[MapData]]
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

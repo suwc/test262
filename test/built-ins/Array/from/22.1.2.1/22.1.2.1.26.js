@@ -3,6 +3,7 @@
 
 /*---
 description: Create a TypedArray from another TypedArray
+es6id: 22.1.2.1
 ---*/
 
 var typedArray = Int32Array.from([1, 2, 4, 8, 16, 32, 64, 128]);

@@ -4,6 +4,7 @@
 /*---
 description: 23.4.1.2 - new WeakSet(... argumentsList)
 author: Nikhil Suryanarayanan
+es6id: 23.4.1.2
 ---*/
 
 var ws = new WeakSet();

@@ -6,6 +6,7 @@ description: >
     Map.prototype.delete verify Same Value Algorithm implementation in
     delete
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

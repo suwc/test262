@@ -4,6 +4,7 @@
 /*---
 description: WeakMap Constructor called as function. thisArg is null
 includes: [runTestCase.js]
+es6id: 23.3.2
 ---*/
 
 function testcase() {

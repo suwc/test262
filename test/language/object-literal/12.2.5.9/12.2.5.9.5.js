@@ -3,7 +3,7 @@
 
 /*---
 description: MethodDefinition and duplicate accessor
-includes:
+es6id: 12.2.6
 ---*/
 
 var obj = {

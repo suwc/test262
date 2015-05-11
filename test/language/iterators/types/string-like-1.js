@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: string-like-1.js
+es6id: 21.1.5
 ---*/
 
 var error;

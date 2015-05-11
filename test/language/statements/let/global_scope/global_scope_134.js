@@ -5,6 +5,7 @@
 description: >
     Having let as an identifier is not an error because it's a future
     reserved keyword
+es6id: 13.3.1
 ---*/
 
 const let = 1;

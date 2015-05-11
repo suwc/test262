@@ -7,6 +7,7 @@ description: >
     Object.prototype.__proto__ attribute {configurable} changed to
     false
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

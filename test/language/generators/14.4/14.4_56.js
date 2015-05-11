@@ -7,6 +7,7 @@ description: >
     or if its FunctionBody is strict code, then let strict be true.
     Otherwise let strict be false.
 author: Nikhil Suryanarayanan
+es6id: 14.4
 ---*/
 
 function *gfoo() {

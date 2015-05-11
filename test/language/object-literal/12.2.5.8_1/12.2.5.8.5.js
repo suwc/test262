@@ -3,6 +3,7 @@
 
 /*---
 description: "[[IdentifierReference]] Multi-level IdentifierReference"
+es6id: 12.2.6
 ---*/
 
 var a = 10;

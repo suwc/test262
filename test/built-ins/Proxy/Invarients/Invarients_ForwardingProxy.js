@@ -3,9 +3,10 @@
 
 /*---
 description: Testing [[Get]], [[Set]], [[GetOwnPropertyNames]], proto Invarients
-includes:
+includes: 
     - runTestCase.js
     - proxyLib.js
+es6id: 26.1
 ---*/
 
 function testcase() {

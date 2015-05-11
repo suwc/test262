@@ -5,6 +5,7 @@
 description: >
     [[Substitutions]] Verify that different types of function
     definitions and invocation works fine within the templates
+es6id: 12.2.9.1
 ---*/
 
 var number;

@@ -3,6 +3,7 @@
 
 /*---
 description: Accessing a const statement from the outer scope is an error
+es6id: 13.3.1
 ---*/
 
 try {

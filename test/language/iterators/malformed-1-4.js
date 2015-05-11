@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: malformed-1-4.js
+es6id: 25.1
 ---*/
 
 var iterator = {

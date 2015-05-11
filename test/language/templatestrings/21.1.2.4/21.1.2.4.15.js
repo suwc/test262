@@ -3,6 +3,7 @@
 
 /*---
 description: String.raw(template,...substitutions) performs ToString(template.raw[0])
+es6id: 12.2.9.1
 ---*/
 
 try {

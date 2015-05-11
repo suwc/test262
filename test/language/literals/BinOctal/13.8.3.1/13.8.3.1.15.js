@@ -3,6 +3,7 @@
 
 /*---
 description: Arithmetic operations on bin and octal literals
+es6id: 11.8.3
 ---*/
 
 var sum = 0B111 + 0b101;

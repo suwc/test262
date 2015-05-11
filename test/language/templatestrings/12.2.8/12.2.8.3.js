@@ -5,6 +5,7 @@
 description: >
     [[Substitutions]] Tests whether the toString() method is invoked
     properly
+es6id: 12.2.9.1
 ---*/
 
 function customObj() {

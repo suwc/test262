@@ -4,6 +4,7 @@
 /*---
 description: Testing Number.isFinite with sample values.
 includes: [runTestCase.js]
+es6id: 20.1.2.2
 ---*/
 
 function testcase() {

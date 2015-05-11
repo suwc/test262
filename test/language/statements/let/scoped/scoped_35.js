@@ -3,6 +3,7 @@
 
 /*---
 description: Const assignments are not just static values but can be expressions
+es6id: 13.3.1
 ---*/
 
 try {

@@ -6,6 +6,7 @@ description: >
     WeakMap Constructor as Function verfy whether result in instance
     of WeakMap
 includes: [runTestCase.js]
+es6id: 23.3.2
 ---*/
 
 function testcase() {

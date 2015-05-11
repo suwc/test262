@@ -6,6 +6,7 @@ description: >
     const statements must be inside a block when used in do-while
     statements
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 do const x = 1; while (false)

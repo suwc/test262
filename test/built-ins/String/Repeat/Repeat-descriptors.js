@@ -4,6 +4,7 @@
 /*---
 description: Validating descriptor for String.prototype.repeat
 includes: [runTestCase.js]
+es6id: 21.1.3.13
 ---*/
 
 function testcase() {

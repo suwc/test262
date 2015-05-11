@@ -6,6 +6,7 @@ description: >
     WeakMap.prototype.set duplicate key should only update existing
     value
 includes: [runTestCase.js]
+es6id: 23.3.3
 ---*/
 
 function testcase() {

@@ -4,6 +4,7 @@
 /*---
 description: Testing descriptor property of Math.sinh
 includes: [runTestCase.js]
+es6id: 20.2.2.31
 ---*/
 
 function modifyAndVerifyDescriptors(obj, prop) {

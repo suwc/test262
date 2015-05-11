@@ -6,6 +6,7 @@ description: >
     Map.prototype.forEach verify thisArg is same as one passed in
     forEach
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

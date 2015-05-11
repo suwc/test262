@@ -4,6 +4,7 @@
 /*---
 description: spread a result of yield in array
 author: Nikhil Suryanarayanan
+es6id: 14.4.14
 ---*/
 
 function *gfoo() {

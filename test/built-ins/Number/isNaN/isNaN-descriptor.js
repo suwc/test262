@@ -4,6 +4,7 @@
 /*---
 description: Testing descriptor property of Number.isNaN
 includes: [runTestCase.js]
+es6id: 20.1.2.4
 ---*/
 
 function modifyAndVerifyDescriptors(obj, prop) {

@@ -4,6 +4,7 @@
 /*---
 description: yield is allowed in strict mode
 author: Nikhil Suryanarayanan
+es6id: 14.4
 ---*/
 
 function *gfoo() {

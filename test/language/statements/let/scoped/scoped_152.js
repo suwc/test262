@@ -4,6 +4,7 @@
 /*---
 description: eval should throw assign to const error
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 function testcase() {

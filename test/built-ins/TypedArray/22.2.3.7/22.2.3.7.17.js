@@ -4,6 +4,7 @@
 /*---
 description: callbackFn throws an exception
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.7
 ---*/
 
 var superArrayIndex = 0;

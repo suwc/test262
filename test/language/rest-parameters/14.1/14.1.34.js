@@ -3,6 +3,7 @@
 
 /*---
 description: Lambda with arguments as the rest argument
+es6id: 14.1
 ---*/
 
 var foo = (a = 10, ...b) => { return a; };

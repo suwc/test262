@@ -6,6 +6,7 @@ description: >
     23.4.1.1 - 7c.    If IsCallable(adder) is false, throw a TypeError
     Exception.
 author: Nikhil Suryanarayanan
+es6id: 23.4.1
 ---*/
 
 var error;

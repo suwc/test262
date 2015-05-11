@@ -3,7 +3,7 @@
 
 /*---
 description: Computed property name as a binary expression
-includes:
+es6id: 12.2.6
 ---*/
 
 var prop = "property";

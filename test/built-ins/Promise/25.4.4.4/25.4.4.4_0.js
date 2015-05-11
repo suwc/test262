@@ -4,6 +4,7 @@
 /*---
 description: Promise.reject
 author: Nikhil Suryanarayanan
+es6id: 25.4.4
 ---*/
 
 if(Promise.reject === undefined)

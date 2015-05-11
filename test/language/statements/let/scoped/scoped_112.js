@@ -5,6 +5,7 @@
 description: >
     Assigning an object to const and changing it's properties should
     work
+es6id: 13.3.1
 ---*/
 
 try {

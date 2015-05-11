@@ -4,6 +4,7 @@
 /*---
 description: String.prototype.repeat has length=1
 includes: [runTestCase.js]
+es6id: 21.1.3.13
 ---*/
 
 function testcase() {

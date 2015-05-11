@@ -5,6 +5,7 @@
 description: Spreading an object with negative length property
 author: Nikhil Suryanarayanan
 flags: [negative]
+es6id: 12.2.5.2
 ---*/
 
 var obj {

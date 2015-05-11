@@ -3,6 +3,7 @@
 
 /*---
 description: "[[Substitutions]] Error is thrown from the toString() method"
+es6id: 12.2.9.1
 ---*/
 
 function customObj() {

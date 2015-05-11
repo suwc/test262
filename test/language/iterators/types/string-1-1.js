@@ -5,6 +5,7 @@
 author: Murat Sutunc
 description: string-1-1.js
 includes: [compareArray.js]
+es6id: 21.1.5
 ---*/
 
 var string = "\uD7FFt";

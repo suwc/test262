@@ -6,6 +6,7 @@ description: >
     [[Put]] __proto__ Assign function.prototype.__proto__ to
     Array.prototype for user defined function
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

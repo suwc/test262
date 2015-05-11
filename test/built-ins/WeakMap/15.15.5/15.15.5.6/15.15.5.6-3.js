@@ -4,6 +4,7 @@
 /*---
 description: WeakMap.prototype.set verify return type in undefined
 includes: [runTestCase.js]
+es6id: 23.3.3
 ---*/
 
 function testcase() {

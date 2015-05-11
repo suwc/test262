@@ -4,6 +4,7 @@
 /*---
 description: Set.prototype.delete verify return value
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

@@ -4,6 +4,7 @@
 /*---
 description: Map.prototype.set TypeError key can be any ECMAScript value
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

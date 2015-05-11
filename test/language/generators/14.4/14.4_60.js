@@ -7,6 +7,7 @@ description: >
     GeneratorFunctionCreate abstract operation with arguments Normal,
     FormalParameters, body, scope, and strict.
 author: Nikhil Suryanarayanan
+es6id: 14.4
 ---*/
 
 function *gfoo() {

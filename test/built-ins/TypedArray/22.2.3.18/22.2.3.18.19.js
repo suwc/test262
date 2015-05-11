@@ -4,6 +4,7 @@
 /*---
 description: Source array with boundary values
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.18
 ---*/
 
 var array = [ Number.MAX_VALUE, Number.MIN_VALUE, Number.NaN, Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY ];

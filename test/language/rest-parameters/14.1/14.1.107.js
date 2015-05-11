@@ -3,6 +3,7 @@
 
 /*---
 description: Try to pass a generator method for rest arg
+es6id: 14.1
 ---*/
 
 function foo(a, ...funcs) {

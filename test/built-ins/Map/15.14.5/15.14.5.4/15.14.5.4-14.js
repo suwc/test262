@@ -4,6 +4,7 @@
 /*---
 description: Map.prototype.forEach verify thisArg being passed in set.forEach
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

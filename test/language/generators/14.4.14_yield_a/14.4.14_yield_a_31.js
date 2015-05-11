@@ -4,6 +4,7 @@
 /*---
 description: yield in object literal
 author: Nikhil Suryanarayanan
+es6id: 14.4.14
 ---*/
 
 function *gfoo(n){

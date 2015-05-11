@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: falsy-3-2.js
+es6id: 25.1
 ---*/
 
 var iterator = {

@@ -3,7 +3,7 @@
 
 /*---
 description: Testing the this binding inside a MethodDefinition
-includes:
+es6id: 12.2.6
 ---*/
 
 var obj = {

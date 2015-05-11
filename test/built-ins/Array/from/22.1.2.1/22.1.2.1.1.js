@@ -3,6 +3,7 @@
 
 /*---
 description: Length of the from method is 1
+es6id: 22.1.2.1
 ---*/
 
 if (Array.from.length != 1) {

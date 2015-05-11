@@ -5,6 +5,7 @@
 author: Murat Sutunc
 description: float32array-manual-2.js
 includes: [compareArray.js]
+es6id: 22.2
 ---*/
 
 var test = [];

@@ -6,6 +6,7 @@ description: >
     If endIndex < startIndex then endIndex is made the same as
     startIndex
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.27
 ---*/
 
 var array = [ 2, 4, 8, 16, 32, 64, 127 ];

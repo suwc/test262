@@ -5,6 +5,7 @@
 description: Map.prototype.forEach verify thisArg is undefined if not specified
 flags: [noStrict]
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

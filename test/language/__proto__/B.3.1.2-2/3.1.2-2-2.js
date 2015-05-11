@@ -3,6 +3,7 @@
 
 /*---
 description: "[[Put]] __proto__ with value literal"
+es6id: B.3.1
 ---*/
 
 var testVector = [1, '', Infinity, NaN, undefined, true]

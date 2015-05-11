@@ -7,6 +7,7 @@ description: >
     redeclaration error if  there already is a let statement with the
     same identifier on the outer scope
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 function testcase() {

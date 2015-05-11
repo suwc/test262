@@ -3,6 +3,7 @@
 
 /*---
 description: Check function length
+es6id: 14.1
 ---*/
 
 function foo(a = 10, b, ...args) {

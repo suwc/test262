@@ -4,6 +4,7 @@
 /*---
 description: this argument is not an object will cause type error
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.26
 ---*/
 
 function callbackFn(x, y) {

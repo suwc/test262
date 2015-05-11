@@ -6,6 +6,7 @@ description: >
     WeakMap Constructor call() throws TypeError if thisArg has
     [[WeakMapData]]
 includes: [runTestCase.js]
+es6id: 23.3.2
 ---*/
 
 function testcase() {

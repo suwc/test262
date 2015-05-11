@@ -6,6 +6,7 @@ description: >
     25.3.3.2 GeneratorResume: If state is "completed", then return
     CreateIterResultObject(undefined, true)
 author: Nikhil Suryanarayanan
+es6id: 14.4.14
 ---*/
 
 var gfoo = function *() {}

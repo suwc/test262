@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: non-writable.js
+es6id: 25.1
 ---*/
 
 var simpleIterator = {

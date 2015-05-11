@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.prototype.toString throws TypeError if the this argument is a non-object
+es6id: 19.4.3.2
 ---*/
 
 try {

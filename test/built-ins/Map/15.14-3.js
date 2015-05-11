@@ -4,6 +4,7 @@
 /*---
 description: length property of Map constructor
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

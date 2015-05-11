@@ -3,6 +3,7 @@
 
 /*---
 description: Function returning the rest arg 3
+es6id: 14.1
 ---*/
 
 function foo(...args) {

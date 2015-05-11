@@ -4,6 +4,7 @@
 /*---
 description: arrow function returning object
 author: Nikhil Suryanrayanan
+es6id: 14.2
 ---*/
 
 var obj_1 = value => ({ "value": value });

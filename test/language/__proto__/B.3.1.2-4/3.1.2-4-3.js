@@ -4,6 +4,7 @@
 /*---
 description: "[[DefineOwnProperty]] __proto__ Builtin objects"
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

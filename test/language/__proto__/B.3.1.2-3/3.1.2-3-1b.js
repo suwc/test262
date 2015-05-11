@@ -4,6 +4,7 @@
 /*---
 description: delete __proto__ on Object.prototype.
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

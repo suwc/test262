@@ -3,6 +3,7 @@
 
 /*---
 description: "[[ComputedPropertyName]] Computed property name with void type"
+es6id: 12.2.6
 ---*/
 
 var a = 9;

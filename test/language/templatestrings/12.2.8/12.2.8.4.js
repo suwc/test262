@@ -5,6 +5,7 @@
 description: >
     [[Substitutions]] If toString() is not defined then valueOf()
     should be invoked
+es6id: 12.2.9.1
 ---*/
 
 function customObj() {

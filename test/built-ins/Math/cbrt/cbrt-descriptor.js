@@ -4,6 +4,7 @@
 /*---
 description: Testing descriptor property of Math.cbrt
 includes: [runTestCase.js]
+es6id: 20.2.2.9
 ---*/
 
 function modifyAndVerifyDescriptors(obj, prop) {

@@ -6,6 +6,7 @@ description: >
     Testing Symbol act as private data and are accessible with
     getOwnPropertySymbols
 includes: [runTestCase.js]
+es6id: 19.4.3
 ---*/
 
 class cl{

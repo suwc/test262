@@ -4,6 +4,7 @@
 /*---
 description: Testing length property of Number.parseFloat
 includes: [runTestCase.js]
+es6id: 18.2.4
 ---*/
 
 function testcase() {

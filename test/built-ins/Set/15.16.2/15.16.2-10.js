@@ -4,6 +4,7 @@
 /*---
 description: Set Constructor called as function. thisArg is null
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

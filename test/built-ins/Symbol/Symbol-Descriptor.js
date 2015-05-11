@@ -3,9 +3,10 @@
 
 /*---
 description: Testing Symbol are non enumerable in for-in
-includes:
+includes: 
     - runTestCase.js
     - dataPropertyAttributesAreCorrect.js
+es6id: 19.4.3
 ---*/
 
 var objects = [{}, Object.create(Object.prototype), new Array(), new String('stringVal'), new Boolean(false), new Number(3), new Error('error'), new RegExp(), new ArrayBuffer(), new Int16Array(16), new Map(), new WeakMap(), [], Symbol.prototype, function () { }, new Function()];

@@ -3,6 +3,7 @@
 
 /*---
 description: "[[String.Raw]] Passing different object types to String.raw"
+es6id: 12.2.9.1
 ---*/
 
 var str = 'Hello';

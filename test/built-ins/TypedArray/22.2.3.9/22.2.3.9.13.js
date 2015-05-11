@@ -4,6 +4,7 @@
 /*---
 description: filterFn returns a non-integer
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.9
 ---*/
 
 var array = [ 2, 4, 8, 16, 32, 64, 127 ];

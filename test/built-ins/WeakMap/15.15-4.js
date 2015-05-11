@@ -4,6 +4,7 @@
 /*---
 description: Descriptor of WeakMap
 includes: [runTestCase.js]
+es6id: 23.3.1
 ---*/
 
 function testcase() {

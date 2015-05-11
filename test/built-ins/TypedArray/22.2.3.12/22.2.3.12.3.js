@@ -4,6 +4,7 @@
 /*---
 description: Elements are updated before they are consumed by map method
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.12
 ---*/
 
 var array = [ 127, 4, 8, 16, 32, 64, 127 ];

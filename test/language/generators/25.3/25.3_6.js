@@ -4,6 +4,7 @@
 /*---
 description: Generator.prototype.throw(value)
 author: Nikhil Suryanarayanan
+es6id: 25.3
 ---*/
 
 var iter = (function *(){})();

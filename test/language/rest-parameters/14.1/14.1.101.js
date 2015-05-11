@@ -3,6 +3,7 @@
 
 /*---
 description: Rest param with Function.prototype.call()
+es6id: 14.1
 ---*/
 
 function Obj() {

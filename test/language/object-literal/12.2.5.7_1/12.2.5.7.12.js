@@ -5,6 +5,7 @@
 description: >
     [[ComputedPropertyName]] ComputedPropertyName is a regex
     expression. Parser test.
+es6id: 12.2.6
 ---*/
 
 var obj = {

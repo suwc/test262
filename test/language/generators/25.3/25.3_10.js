@@ -6,6 +6,7 @@ description: >
     25.3.1.4    Generator.prototype [ @@iterator ] (   ) - Returns the
     this value.
 author: Nikhil Suryanarayanan
+es6id: 25.3
 ---*/
 
 var iter = (function *(){})();

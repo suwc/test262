@@ -4,6 +4,7 @@
 /*---
 description: Array with only one element
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.14
 ---*/
 
 var array = [ 2 ];

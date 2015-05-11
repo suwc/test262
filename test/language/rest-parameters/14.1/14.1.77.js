@@ -3,6 +3,7 @@
 
 /*---
 description: Function expression with rest
+es6id: 14.1
 ---*/
 
 var expectedArray = [1, 2, 3];

@@ -4,6 +4,7 @@
 /*---
 description: predicate tries to delete elements from the typed array
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.11
 ---*/
 
 var superArrayIndex = 0;

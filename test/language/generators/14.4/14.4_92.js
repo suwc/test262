@@ -6,6 +6,7 @@ description: >
     14.4.14 - BindingIndentifier name should be visible inside the
     generator function body
 author: Nikhil Suryanarayanan
+es6id: 14.4
 ---*/
 
 var methodcalled = false;

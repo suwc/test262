@@ -6,6 +6,7 @@ description: >
     Initial value of Set.prototype.constructor is the built in Set
     constructor
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

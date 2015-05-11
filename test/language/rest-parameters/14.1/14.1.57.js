@@ -3,6 +3,7 @@
 
 /*---
 description: Function invoked with different types of arguments
+es6id: 14.1
 ---*/
 
 var expectedArray = [];

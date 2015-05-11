@@ -5,6 +5,7 @@
 description: >
     [[IdentifierReference]] IdentifierReference for an object inside a
     function scope
+es6id: 12.2.6
 ---*/
 
 function test(a) {

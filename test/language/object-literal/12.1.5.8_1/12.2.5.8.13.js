@@ -3,7 +3,7 @@
 
 /*---
 description: Expression with lambda
-includes:
+es6id: 12.2.6
 ---*/
 
 var a = "prop", b = "Name";

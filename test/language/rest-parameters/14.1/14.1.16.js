@@ -3,6 +3,7 @@
 
 /*---
 description: arguments as the rest parameter name
+es6id: 14.1
 ---*/
 
 function foo(a, b = 10, ...arguments) {

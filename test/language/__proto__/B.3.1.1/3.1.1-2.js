@@ -6,6 +6,7 @@ description: >
     Check if pseudo property Object.prototype.__proto__ exists in
     strict mode
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

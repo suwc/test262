@@ -4,6 +4,7 @@
 /*---
 description: reduceRight method's length is 1
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.20
 ---*/
 
 var array = [  ];

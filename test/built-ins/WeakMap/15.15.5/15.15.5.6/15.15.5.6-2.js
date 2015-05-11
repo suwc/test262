@@ -4,6 +4,7 @@
 /*---
 description: WeakMap.prototype.set TypeError is key is not an object
 includes: [runTestCase.js]
+es6id: 23.3.3
 ---*/
 
 function testcase() {

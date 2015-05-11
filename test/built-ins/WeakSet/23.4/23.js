@@ -6,6 +6,7 @@ description: >
     23.4.3.4 - WeakSet.prototype.delete - 2. If Type(S) is not Object,
     then throw a TypeError exception
 author: Nikhil Suryanarayanan
+es6id: 23.4.3.3
 ---*/
 
 var error;

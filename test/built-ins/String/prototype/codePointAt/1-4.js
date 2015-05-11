@@ -4,6 +4,7 @@
 /*---
 description: Object should be coercible
 author: Murat Sutunc
+es6id: 21.1.3.3
 ---*/
 
 Object.prototype.codePointAt = String.prototype.codePointAt;

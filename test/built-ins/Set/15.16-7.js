@@ -4,6 +4,7 @@
 /*---
 description: Constructor of Prototype of Set
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

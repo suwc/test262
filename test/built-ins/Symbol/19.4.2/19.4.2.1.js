@@ -3,6 +3,7 @@
 
 /*---
 description: The value of the [[Prototype]] internal slot of the Symbol constructor is the intrinsic object %FunctionPrototype%
+es6id: 19.4.2
 ---*/
 
 try {

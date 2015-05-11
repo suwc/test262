@@ -6,6 +6,7 @@ description: >
     set Assign Object.prototype.__proto__ = {} results in Cyclic
     assignment
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

@@ -4,6 +4,7 @@
 /*---
 description: Set.prototype.forEach clear the set from callbackfn
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

@@ -4,6 +4,7 @@
 /*---
 description: 15.5.4.24 - String.prototype.contains should have implicit this
 includes: [runTestCase.js]
+es6id: 21.1.3
 ---*/
 
 function testcase() {

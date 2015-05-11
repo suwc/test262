@@ -4,6 +4,7 @@
 /*---
 description: GeneratorFunction.__proto__ equals GeneratorFunction.prototype
 author: Nikhil Suryanarayanan
+es6id: 25.2
 ---*/
 
 var gfoo = function *() {};

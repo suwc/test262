@@ -4,6 +4,7 @@
 /*---
 description: Math.Log2 with sample values.
 includes: [runTestCase.js]
+es6id: 20.2.2.23
 ---*/
 
 function verify(act, exp) {

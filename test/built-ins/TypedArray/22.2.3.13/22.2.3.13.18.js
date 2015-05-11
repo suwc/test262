@@ -4,6 +4,7 @@
 /*---
 description: Search with a number higher than the bit size for some typed arrays
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.13
 ---*/
 
 var array = [ 1, 2, 4, 8, 16, 32, 8, 127 ];

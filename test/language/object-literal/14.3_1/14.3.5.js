@@ -5,6 +5,7 @@
 description: >
     [[MethodDefinition]] Global method definition and internal method
     definition should not conflict
+es6id: 12.2.6
 ---*/
 
 "use strict";

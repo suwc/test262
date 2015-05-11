@@ -4,6 +4,7 @@
 /*---
 description: spread host object
 includes: [runTestCase.js]
+es6id: 12.2.6.1
 ---*/
 
 function testcase() {

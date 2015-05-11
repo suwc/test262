@@ -3,6 +3,7 @@
 
 /*---
 description: "[[String.Raw]] Different types of arrays as input to String.raw"
+es6id: 12.2.9.1
 ---*/
 
 var error;

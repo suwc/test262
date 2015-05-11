@@ -3,9 +3,10 @@
 
 /*---
 description: Testing with absence/presence of Set traps
-includes:
+includes: 
     - runTestCase.js
     - proxyLib.js
+es6id: 26.1
 ---*/
 
 var objectStore = {

@@ -3,6 +3,7 @@
 
 /*---
 description: "[[Put]] __proto__ of value literal"
+es6id: B.3.1
 ---*/
 
 var a = 1;

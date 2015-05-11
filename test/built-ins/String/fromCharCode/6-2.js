@@ -4,6 +4,7 @@
 /*---
 description: If length is 0, the empty string is returned
 author: Murat Sutunc
+es6id: 21.1.2.1
 ---*/
 
 if (String.fromCodePoint() !== "") {

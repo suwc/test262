@@ -3,6 +3,7 @@
 
 /*---
 description: "[[Tagged-Substitutions]] Function constructor"
+es6id: 12.2.9.1
 ---*/
 
 var wish = "Hello";

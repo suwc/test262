@@ -6,6 +6,7 @@ description: >
     [[DefineOwnProperty]] UnderScoreProtoEnabled is set to false when
     Object.prototype.__proto__ is converted to accessor property
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

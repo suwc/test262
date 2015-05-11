@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: atat-iterator-2-5.js
+es6id: 25.1
 ---*/
 
 if (Error.prototype[Symbol.iterator]) {

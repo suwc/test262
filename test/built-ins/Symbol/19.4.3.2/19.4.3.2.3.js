@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.prototype.toString unwraps Symbol wrapper objects
+es6id: 19.4.3.2
 ---*/
 
 try {

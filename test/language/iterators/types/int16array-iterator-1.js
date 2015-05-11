@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: int16array-iterator-1.js
+es6id: 22.2
 ---*/
 
 var error;

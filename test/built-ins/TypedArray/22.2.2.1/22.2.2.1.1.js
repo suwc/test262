@@ -4,6 +4,7 @@
 /*---
 description: Length of the from method is 1
 includes: [TypedArrayHelper.js]
+es6id: 22.2.2.1
 ---*/
 
 var typedArrays = CreateTypedArrayTypes();

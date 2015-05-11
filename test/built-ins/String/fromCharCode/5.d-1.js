@@ -4,6 +4,7 @@
 /*---
 description: If value and ToInteger(value) are not same throw a RangeError
 author: Murat Sutunc
+es6id: 21.1.2.1
 ---*/
 
 var error;

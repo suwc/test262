@@ -4,6 +4,7 @@
 /*---
 description: Testing length property of Math.log1p
 includes: [runTestCase.js]
+es6id: 20.2.2.21
 ---*/
 
 function testcase() {

@@ -6,6 +6,7 @@ description: >
     23.4.3.5 - WeakSet.prototype.has - 6. If Type(value) is not an
     object, then return false;
 author: Nikhil Suryanarayanan
+es6id: 23.4.3.4
 ---*/
 
 var ws = new WeakSet([{}]);

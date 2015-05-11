@@ -3,9 +3,10 @@
 
 /*---
 description: Testing Object.preventExtensions Invarients
-includes:
+includes: 
     - runTestCase.js
     - proxyLib.js
+es6id: 26.1
 ---*/
 function testcase() {
     for (var i in objectStore) {

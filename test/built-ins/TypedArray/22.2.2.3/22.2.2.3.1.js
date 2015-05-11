@@ -4,6 +4,7 @@
 /*---
 description: Verify that prototype object has the correct descriptor
 includes: [TypedArrayHelper.js]
+es6id: 22.2.2.3
 ---*/
 
 var array = [ ];

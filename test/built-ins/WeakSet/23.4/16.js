@@ -8,6 +8,7 @@ description: >
 
     23.4.3.1 - WeakSet.prototype.add - 9.    Return S.
 author: Nikhil Suryanarayanan
+es6id: 23.4.3.1
 ---*/
 
 var ws = new WeakSet();

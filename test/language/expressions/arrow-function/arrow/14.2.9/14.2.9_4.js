@@ -4,6 +4,7 @@
 /*---
 description: Capturing closure variables
 author: Nikhil Suryanarayanan
+es6id: 14.2
 ---*/
 
 var a = 1

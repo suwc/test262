@@ -4,6 +4,7 @@
 /*---
 description: Set.prototype.add duplicate values are not added to the set
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

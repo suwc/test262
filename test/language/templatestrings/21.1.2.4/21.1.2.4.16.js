@@ -3,6 +3,7 @@
 
 /*---
 description: String.raw(template,...substitutions) returns template.raw[0] if template.raw.length === 1
+es6id: 12.2.9.1
 ---*/
 
 var raw = { 'length': 1, 0: 'expected', 1: 'unexpected' };

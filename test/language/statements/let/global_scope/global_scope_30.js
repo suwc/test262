@@ -5,6 +5,7 @@
 description: >
     Const statements inside a block should shadow any var statements
     from the outer scope
+es6id: 13.3.1
 ---*/
 
 var result1, result2;

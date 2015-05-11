@@ -4,6 +4,7 @@
 /*---
 description: Testing descriptor property of Math.imul
 includes: [runTestCase.js]
+es6id: 20.2.2.19
 ---*/
 
 function modifyAndVerifyDescriptors(obj, prop) {

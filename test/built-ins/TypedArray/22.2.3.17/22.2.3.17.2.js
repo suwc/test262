@@ -4,6 +4,7 @@
 /*---
 description: Check the length of typed arrays created from an empty array
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.17
 ---*/
 
 var array = [ ];

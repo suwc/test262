@@ -4,6 +4,7 @@
 /*---
 description: Number should be coercible
 author: Murat Sutunc
+es6id: 21.1.3.3
 ---*/
 
 Number.prototype.codePointAt = String.prototype.codePointAt;

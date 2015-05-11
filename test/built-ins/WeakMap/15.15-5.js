@@ -3,6 +3,7 @@
 
 /*---
 description: Add own property on WeakMap
+es6id: 23.3.1
 ---*/
 
 WeakMap.prop1 = 1;

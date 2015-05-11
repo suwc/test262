@@ -4,6 +4,7 @@
 /*---
 description: Try to delete Delete the length
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.14
 ---*/
 
 var array = [ 2 ];

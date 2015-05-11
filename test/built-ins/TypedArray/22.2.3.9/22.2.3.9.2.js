@@ -4,6 +4,7 @@
 /*---
 description: Call filter method on empty array
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.9
 ---*/
 
 function filterFn(value, index, obj) {

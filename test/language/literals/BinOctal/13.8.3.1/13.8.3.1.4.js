@@ -3,6 +3,7 @@
 
 /*---
 description: Comparison between binary and octal literals
+es6id: 11.8.3
 ---*/
 
 if (0b0 !== 0O0) {

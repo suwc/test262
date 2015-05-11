@@ -4,6 +4,7 @@
 /*---
 description: parser
 flags: [negative]
+es6id: 14.2
 ---*/
 
 eval("=>")

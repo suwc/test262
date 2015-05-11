@@ -4,6 +4,7 @@
 /*---
 description: Call some method on empty array
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.25
 ---*/
 
 function callbackFn(value, index, obj) {

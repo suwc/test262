@@ -5,6 +5,7 @@
 description: >
     [[ComputedPropertyName]] Computed property cascaded with
     redefining the same object
+es6id: 12.2.6
 ---*/
 
 var a = 10;

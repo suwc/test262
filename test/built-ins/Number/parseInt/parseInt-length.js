@@ -4,6 +4,7 @@
 /*---
 description: Testing length property of Number.parseInt
 includes: [runTestCase.js]
+es6id: 18.2.5
 ---*/
 
 function testcase() {

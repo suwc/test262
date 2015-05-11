@@ -4,6 +4,7 @@
 /*---
 description: Prototype of Map if Function
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

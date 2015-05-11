@@ -6,6 +6,7 @@ description: >
     Promise.prototype has attributes { [[Writable]]: false,
     [[Enumerable]]: false, [[Configurable]]: false }
 author: Nikhil Suryanarayanan
+es6id: 25.4.4
 ---*/
 
 var desc = Object.getOwnPropertyDescriptor(Promise, "prototype");

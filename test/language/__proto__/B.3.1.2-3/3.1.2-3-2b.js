@@ -4,6 +4,7 @@
 /*---
 description: "[[delete]] __proto__ on built-in function constructor objects"
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

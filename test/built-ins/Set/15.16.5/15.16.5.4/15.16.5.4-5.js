@@ -4,6 +4,7 @@
 /*---
 description: Set.prototype.delete use dynamic keys
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

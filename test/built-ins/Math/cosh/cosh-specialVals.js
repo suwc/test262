@@ -4,6 +4,7 @@
 /*---
 description: Math.cosh with special values
 includes: [runTestCase.js]
+es6id: 20.2.2.13
 ---*/
 
 function testcase() {

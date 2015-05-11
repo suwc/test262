@@ -4,6 +4,7 @@
 /*---
 description: Checking the length of Number.isNaN
 includes: [runTestCase.js]
+es6id: 20.1.2.4
 ---*/
 
 function testcase() {

@@ -4,6 +4,7 @@
 /*---
 description: Set is instance of Function
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

@@ -7,6 +7,7 @@ description: >
     of StrictFormalParameters also occurs in the VarDeclaredNames of
     FunctionBody.
 author: Nikhil Suryanarayanan
+es6id: 14.4
 ---*/
 
 function *gfoo(a) {

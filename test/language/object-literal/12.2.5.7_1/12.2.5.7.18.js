@@ -5,6 +5,7 @@
 description: >
     [[IdentifierReference]] Behaviour of IdentifierReference with
     duplicate computed properties
+es6id: 12.2.6
 ---*/
 
 var str1 = "prop";

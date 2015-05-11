@@ -4,6 +4,7 @@
 /*---
 description: Map Constructor call() throws TypeError if thisArg has [[MapData]]
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

@@ -4,6 +4,7 @@
 /*---
 description: String.prototype.repeat on objects with toStrings redefined
 includes: [runTestCase.js]
+es6id: 21.1.3.13
 ---*/
 
 function testcase() {

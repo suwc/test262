@@ -3,9 +3,10 @@
 
 /*---
 description: Testing Object.getOwnPropertyDescriptor Invarients
-includes:
+includes: 
     - runTestCase.js
     - proxyLib.js
+es6id: 26.1
 ---*/
 
 function testcase() {

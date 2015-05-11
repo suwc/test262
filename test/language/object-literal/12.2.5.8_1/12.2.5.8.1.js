@@ -5,6 +5,7 @@
 description: >
     [[IdentifierReference]] IdentifierReference and a prpoperty
     definition
+es6id: 12.2.6
 ---*/
 
 var a = 5;

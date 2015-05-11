@@ -5,6 +5,7 @@
 description: >
     [[ComputedPropertyName]] Add a property to the global object in
     one computed property and use it in another
+es6id: 12.2.6
 ---*/
 
 var obj = {

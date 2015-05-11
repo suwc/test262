@@ -6,6 +6,7 @@ description: >
     Initial value of WeakMap.prototype.constructor is the built in
     WeakMap constructor
 includes: [runTestCase.js]
+es6id: 23.3.3
 ---*/
 
 function testcase() {

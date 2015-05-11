@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: map-iterator-2.js
+es6id: 23.1.5
 ---*/
 
 var error;

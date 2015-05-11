@@ -6,6 +6,7 @@ description: >
     WeakMap Constructor call() as Function using WeakMap.prototype as
     thisArg
 includes: [runTestCase.js]
+es6id: 23.3.2
 ---*/
 
 function testcase() {

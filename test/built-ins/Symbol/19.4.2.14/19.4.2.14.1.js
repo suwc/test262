@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.unscopables is the well known symbol @@unscopables
+es6id: 19.4.2.14
 ---*/
 
 if (typeof Symbol.unscopables !== 'symbol') {

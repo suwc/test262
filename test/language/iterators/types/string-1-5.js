@@ -5,6 +5,7 @@
 author: Murat Sutunc
 description: string-1-5.js
 includes: [compareArray.js]
+es6id: 21.1.5
 ---*/
 
 var string = "\uD800\uE000f";

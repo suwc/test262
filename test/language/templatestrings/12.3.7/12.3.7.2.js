@@ -6,6 +6,7 @@ description: >
     [[Tagged-No-Substitutions]] Verify that raw string calculation of
     tagged templates work with escape sequences
 includes: [templateTestHandler.js]
+es6id: 12.2.9.1
 ---*/
 
 var cookedStrings = ["a", "$", "\n", "\"", "h", "\xF8", "\u0023", "\ua4cb"]

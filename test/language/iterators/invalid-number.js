@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: invalid-number.js
+es6id: 25.1
 ---*/
 
 var error;

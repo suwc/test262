@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.prototype is an ordinary object and not a symbol
+es6id: 19.4.3
 ---*/
 
 if (typeof Symbol.prototype === 'symbol' || typeof Symbol.prototype !== 'object') {

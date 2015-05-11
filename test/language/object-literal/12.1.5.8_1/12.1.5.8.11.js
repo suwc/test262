@@ -3,6 +3,7 @@
 
 /*---
 description: "[[ComputedProperty]] ComputedProperty with __proto__"
+es6id: 12.2.6
 ---*/
 
 var e = {

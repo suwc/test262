@@ -3,6 +3,7 @@
 
 /*---
 description: Calling from with a valid map function without thisArg
+es6id: 22.1.2.1
 ---*/
 
 //

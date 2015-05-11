@@ -4,6 +4,7 @@
 /*---
 description: Map.prototype.set verification of function
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

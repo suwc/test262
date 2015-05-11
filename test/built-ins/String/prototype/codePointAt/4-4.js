@@ -4,6 +4,7 @@
 /*---
 description: Test ToInteger(pos)
 author: Murat Sutunc
+es6id: 21.1.3.3
 ---*/
 
 if ("a ".codePointAt(true) !== 32) {

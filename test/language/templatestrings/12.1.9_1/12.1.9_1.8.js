@@ -3,6 +3,7 @@
 
 /*---
 description: "[[Substitutions]] Compiler feature tests"
+es6id: 12.2.9.1
 ---*/
 
 var i = 0;

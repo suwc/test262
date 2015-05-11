@@ -5,6 +5,7 @@
 description: >
     [[ComputedPropertyName]] Computed property tries to delete the
     current object itself
+es6id: 12.2.6
 ---*/
 
 var a = 10;

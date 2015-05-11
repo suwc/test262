@@ -4,6 +4,7 @@
 /*---
 description: Object.prototype.__proto__ value is null
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

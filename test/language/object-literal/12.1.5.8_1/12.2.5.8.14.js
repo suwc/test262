@@ -3,7 +3,7 @@
 
 /*---
 description: Computed property with delete operation
-includes:
+es6id: 12.2.6
 ---*/
 
 var a = 10;

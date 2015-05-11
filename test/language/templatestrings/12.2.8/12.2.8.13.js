@@ -5,6 +5,7 @@
 description: >
     [[Substitutions]] Usage of different types of objects inside
     string templates
+es6id: 12.2.9.1
 ---*/
 
 var array = [101, 102, 103];

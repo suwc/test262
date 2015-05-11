@@ -6,6 +6,7 @@ description: >
     Generator.prototype.next() : If Type(generator) is not Object,
     then throw a TypeError exception.
 author: Nikhil Suryanarayanan
+es6id: 25.3.3
 ---*/
 
 var iter = (function *() {})();

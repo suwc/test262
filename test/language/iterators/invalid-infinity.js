@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: invalid-infinity.js
+es6id: 25.1
 ---*/
 
 var error;

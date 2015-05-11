@@ -4,6 +4,7 @@
 /*---
 description: Testing descriptor property of Math.sign
 includes: [runTestCase.js]
+es6id: 20.2.2.29
 ---*/
 
 function modifyAndVerifyDescriptors(obj,prop) {

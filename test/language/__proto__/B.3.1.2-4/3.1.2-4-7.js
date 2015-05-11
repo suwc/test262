@@ -4,6 +4,7 @@
 /*---
 description: "[[DefineOwnProperty]] __proto__ on parent of the object"
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

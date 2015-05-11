@@ -3,6 +3,7 @@
 
 /*---
 description: Function with only one parameter which is rest
+es6id: 14.1
 ---*/
 
 var expectedArray = [{ value: 1 }, { value: 2 }, { value: 3 }];

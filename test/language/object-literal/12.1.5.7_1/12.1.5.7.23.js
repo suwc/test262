@@ -3,6 +3,7 @@
 
 /*---
 description: Make sure that the object's prototype is assigned properly
+es6id: 12.2.6
 ---*/
 
 var a = 10

@@ -4,6 +4,7 @@
 /*---
 description: Testing Number.parseInt === parseInt.
 includes: [runTestCase.js]
+es6id: 18.2.5
 ---*/
 
 function testcase() {

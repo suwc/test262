@@ -4,6 +4,7 @@
 /*---
 description: Set.prototype.forEach deleted values are not visited
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

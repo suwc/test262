@@ -6,6 +6,7 @@ description: >
     23.4.1.1 - 7d.    Let iter be the result of
     GetIterator(ToObject(iterable)).
 author: Nikhil Suryanarayanan
+es6id: 23.4.1.1
 ---*/
 
 var called = false;

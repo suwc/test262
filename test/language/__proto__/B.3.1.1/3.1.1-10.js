@@ -4,6 +4,7 @@
 /*---
 description: Object.freeze(Object.prototype) does not affect __proto__
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

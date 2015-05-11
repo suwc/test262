@@ -4,6 +4,7 @@
 /*---
 description: Match last element
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.16
 ---*/
 
 var array = [ 1, 2, 4, 8, 16, 32, 64, 127 ];

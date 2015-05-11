@@ -5,6 +5,7 @@
 author: Murat Sutunc
 description: array-like-3.js
 includes: [compareArray.js]
+es6id: 22.1.5
 ---*/
 
 var finalResult = 0;

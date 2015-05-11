@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.prototype.valueOf returns the this argument if it is a symbol
+es6id: 19.4.3.3
 ---*/
 
 try {

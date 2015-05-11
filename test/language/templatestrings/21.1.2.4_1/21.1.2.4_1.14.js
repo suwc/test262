@@ -3,6 +3,7 @@
 
 /*---
 description: "[[Substitutions]] Cascaded tag handlers"
+es6id: 12.2.9.1
 ---*/
 
 function testHandler(callsiteObj, substitutions) {

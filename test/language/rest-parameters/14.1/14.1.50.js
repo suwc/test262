@@ -3,6 +3,7 @@
 
 /*---
 description: from bug
+es6id: 14.1
 ---*/
 
 function test0() {

@@ -4,6 +4,7 @@
 /*---
 description: (yield 1) + (yield 2) - should yield 1 and 2
 author: Nikhil Suryanarayanan
+es6id: 14.4.14
 ---*/
 
 var gfoo = function *() {

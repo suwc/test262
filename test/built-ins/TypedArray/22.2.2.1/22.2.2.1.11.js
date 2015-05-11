@@ -4,6 +4,7 @@
 /*---
 description: this object not a TypedArray
 includes: [TypedArrayHelper.js]
+es6id: 22.2.2.1
 ---*/
 
 //

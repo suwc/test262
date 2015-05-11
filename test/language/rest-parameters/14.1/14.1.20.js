@@ -5,6 +5,7 @@
 description: >
     Duplicate parameter names are allowed in non-strict mode if the
     method has simple formal parameters
+es6id: 14.1
 ---*/
 
 function foo(a, b, a) {

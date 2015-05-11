@@ -4,6 +4,7 @@
 /*---
 description: Map.prototype.set using eval and functions returning keys
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

@@ -4,6 +4,7 @@
 /*---
 description: Empty array
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.13
 ---*/
 
 var array = [ ];

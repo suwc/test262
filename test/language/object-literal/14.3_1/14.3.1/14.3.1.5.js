@@ -3,7 +3,7 @@
 
 /*---
 description: Method argument is re-declared inside the method body
-includes:
+es6id: 12.2.6
 ---*/
 
 "use strict";

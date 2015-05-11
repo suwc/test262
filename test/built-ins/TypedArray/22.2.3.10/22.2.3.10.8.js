@@ -4,6 +4,7 @@
 /*---
 description: this object not a TypedArray will cause a TypeError
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.10
 ---*/
 
 function predicate(value, index, obj) {

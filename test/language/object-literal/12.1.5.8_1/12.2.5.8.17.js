@@ -3,7 +3,7 @@
 
 /*---
 description: Expression resulting in a key word under strict mode
-includes:
+es6id: 12.2.6
 ---*/
 
 "use strict";

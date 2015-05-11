@@ -4,6 +4,7 @@
 /*---
 description: length property of WeakMap constructor
 includes: [runTestCase.js]
+es6id: 23.3.1
 ---*/
 
 function testcase() {

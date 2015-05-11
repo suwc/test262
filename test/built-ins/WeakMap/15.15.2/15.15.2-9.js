@@ -6,6 +6,7 @@ description: >
     WeakMap Constructor called as function. Verify prototype is not a
     WeakMap and resulting object has [[WeakMapData]]
 includes: [runTestCase.js]
+es6id: 23.3.2
 ---*/
 
 function testcase() {

@@ -4,6 +4,7 @@
 /*---
 description: SetPrototypeof
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

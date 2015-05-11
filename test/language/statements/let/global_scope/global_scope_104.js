@@ -6,6 +6,7 @@ description: >
     Declaring a let statement in the global scope and redeclaring it
     as a var statement inside an eval should fail
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 let x = 1;

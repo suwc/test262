@@ -3,7 +3,7 @@
 
 /*---
 description: An expression is thrown from the computed property expression
-includes:
+es6id: 12.2.6
 ---*/
 
 function throwError() {

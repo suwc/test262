@@ -6,6 +6,7 @@ description: >
     A let statement can't be assigned from a function body before it's
     initialized
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 let x = test();

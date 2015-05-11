@@ -4,6 +4,7 @@
 /*---
 description: String.prototype.StartsWith with special characters
 includes: [runTestCase.js]
+es6id: 21.1.3.18
 ---*/
 
 function testcase() {

@@ -4,6 +4,7 @@
 /*---
 description: Check is WeakMap is defined
 includes: [runTestCase.js]
+es6id: 23.3.1
 ---*/
 
 function testcase() {

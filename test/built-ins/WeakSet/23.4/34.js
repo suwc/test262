@@ -9,6 +9,7 @@ description: >
 
     23.4.3.5 - WeakSet.prototype.has -  8.    Return false.
 author: Nikhil Suryanarayanan
+es6id: 23.4.3.4
 ---*/
 
 var ws = new WeakSet();

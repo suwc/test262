@@ -4,6 +4,7 @@
 /*---
 description: Properties on promise
 author: Nikhil Suryanarayanan
+es6id: 25.4.4
 ---*/
 
 if(Promise.resolve === undefined)

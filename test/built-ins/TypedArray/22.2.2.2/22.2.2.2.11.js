@@ -4,6 +4,7 @@
 /*---
 description: Source object has iterator
 includes: [TypedArrayHelper.js]
+es6id: 22.2.2.2
 ---*/
 
 var array = [2, 4, 0, 16];

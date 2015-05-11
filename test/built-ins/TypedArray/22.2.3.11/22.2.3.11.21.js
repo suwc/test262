@@ -4,6 +4,7 @@
 /*---
 description: predicate returns true for first element
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.11
 ---*/
 
 var superArrayIndex = 0;

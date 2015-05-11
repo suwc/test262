@@ -4,6 +4,7 @@
 /*---
 description: Redeclaration is not allowed for let and var statements
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 function testcase() {

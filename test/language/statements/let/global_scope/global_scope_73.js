@@ -6,6 +6,7 @@ description: >
     const statements must be inside a block when used in else
     statements
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 if (false) {} else const x = 1;

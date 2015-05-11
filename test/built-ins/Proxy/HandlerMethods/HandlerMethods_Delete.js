@@ -2,11 +2,12 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-author : Kunal Pathak
+author: Kunal Pathak
 description: Testing Object.Delete for proxy
 
 
 
+es6id: 26.1
 ---*/
 
 // Test1 : Handler null

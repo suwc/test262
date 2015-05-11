@@ -6,6 +6,7 @@ description: >
     Make sure Number.parseFloat is on Number rather than
     Number.prototype
 includes: [runTestCase.js]
+es6id: 18.2.4
 ---*/
 
 function testcase() {

@@ -4,6 +4,7 @@
 /*---
 description: Array with the same element at all indices
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.13
 ---*/
 
 var array = [ 8, 8, 8, 8, 8, 8, 8, 8 ];

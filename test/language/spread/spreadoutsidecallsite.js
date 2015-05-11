@@ -4,6 +4,7 @@
 /*---
 description: Spread operator should work only at call site
 includes: [runTestCase.js]
+es6id: 12.2.6.1
 ---*/
 
 function testcase() {

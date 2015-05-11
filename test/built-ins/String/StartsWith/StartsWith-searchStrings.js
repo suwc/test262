@@ -5,6 +5,7 @@
 es5id: tartsWith-searchStrings
 description: String.prototype.StartsWith with different values of search strings
 includes: [runTestCase.js]
+es6id: 21.1.3.18
 ---*/
 
 function testcase() {

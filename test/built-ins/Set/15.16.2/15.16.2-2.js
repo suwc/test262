@@ -4,6 +4,7 @@
 /*---
 description: Set Constructor as Function verfy whether result in instance of Set
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

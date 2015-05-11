@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.for(key) always returns the same symbol primitive when key string values are strictly equal
+es6id: 19.4.2.1
 ---*/
 
 var key = 'key';

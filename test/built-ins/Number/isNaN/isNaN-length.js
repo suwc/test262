@@ -4,6 +4,7 @@
 /*---
 description: Using Number.isNaN on sample values
 includes: [runTestCase.js]
+es6id: 20.1.2.4
 ---*/
 
 function testcase() {

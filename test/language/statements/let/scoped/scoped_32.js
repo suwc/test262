@@ -6,6 +6,7 @@ description: >
     Const declarations can have multiple bindings in a single
     statement, but they can't have unassigned values
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 function testcase() {

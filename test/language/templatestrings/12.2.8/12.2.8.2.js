@@ -5,6 +5,7 @@
 description: >
     [[Substitutions]] These tests check the accuracy of operators
     evaluations inside substitutions
+es6id: 12.2.9.1
 ---*/
 
 var x, y, $;

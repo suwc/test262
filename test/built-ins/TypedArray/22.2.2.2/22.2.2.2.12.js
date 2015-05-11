@@ -4,6 +4,7 @@
 /*---
 description: Passing a non-constructor as this cause TypeError
 includes: [TypedArrayHelper.js]
+es6id: 22.2.2.2
 ---*/
 
 var array = [ ];

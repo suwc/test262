@@ -4,6 +4,7 @@
 /*---
 description: Set.prototype.add return value is undefined
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

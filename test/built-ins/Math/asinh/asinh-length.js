@@ -4,6 +4,7 @@
 /*---
 description: Testing length property of Math.asinh
 includes: [runTestCase.js]
+es6id: 20.2.2.5
 ---*/
 
 function testcase() {

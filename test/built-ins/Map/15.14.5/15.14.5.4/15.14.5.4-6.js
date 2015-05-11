@@ -4,6 +4,7 @@
 /*---
 description: Map.prototype.forEach verify if all values are visited
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

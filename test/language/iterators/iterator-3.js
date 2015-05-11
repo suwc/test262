@@ -5,6 +5,7 @@
 author: Murat Sutunc
 description: iterator-3.js
 includes: [compareArray.js]
+es6id: 25.1
 ---*/
 
 var iterator = {[Symbol.iterator]: function() {return x;}}

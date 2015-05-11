@@ -7,6 +7,7 @@ description: >
     and throw error if there is a let statement  in the outer-scope
     with the same identifier
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 function testcase() {

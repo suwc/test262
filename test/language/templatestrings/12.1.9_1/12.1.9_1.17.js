@@ -3,6 +3,7 @@
 
 /*---
 description: "[[Substitutions]] Both toString() and valueOf() are assigned null"
+es6id: 12.2.9.1
 ---*/
 
 var x = 10;

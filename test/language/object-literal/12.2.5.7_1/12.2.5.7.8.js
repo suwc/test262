@@ -5,6 +5,7 @@
 description: >
     [[ComputedPropertyName]] Computed property name of expressions
     with unary operator
+es6id: 12.2.6
 ---*/
 
 var obj = {

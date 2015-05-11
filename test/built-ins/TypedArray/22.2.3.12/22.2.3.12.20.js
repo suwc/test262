@@ -4,6 +4,7 @@
 /*---
 description: Pass another typed array as this
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.12
 ---*/
 
 var arrays = [

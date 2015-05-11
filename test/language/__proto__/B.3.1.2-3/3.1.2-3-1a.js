@@ -6,6 +6,7 @@ description: >
     [[Delete]] __proto__ on Object.prototype. UnderScoreProtoEnabled
     is false
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

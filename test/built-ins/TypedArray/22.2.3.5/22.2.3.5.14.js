@@ -4,6 +4,7 @@
 /*---
 description: Try to copy NaN
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.5
 ---*/
 
 function CreateReducedSetOfTypedArrayInstances(obj) {

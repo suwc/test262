@@ -4,6 +4,7 @@
 /*---
 description: Math max and Math min
 author: Nikhil Suryanarayanan
+es6id: 12.2.6.1
 ---*/
 
 var a = [1,2,3];

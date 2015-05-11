@@ -8,6 +8,7 @@ description: >
     FormalParameters, body, scope, and strict.
 author: Nikhil Suryanarayanan
 flags: [noStrict]
+es6id: 14.4
 ---*/
 
 var gfoo = function*baz(a,a) {

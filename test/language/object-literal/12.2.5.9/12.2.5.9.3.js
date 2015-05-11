@@ -3,7 +3,7 @@
 
 /*---
 description: It is not a syntax error if the duplicate entries occur twice as get and set accessors
-includes:
+es6id: 12.2.6
 ---*/
 
 var obj = {

@@ -4,6 +4,7 @@
 /*---
 description: Accuracy tests for imul
 includes: [runTestCase.js]
+es6id: 20.2.2.19
 ---*/
 
 // [inputX, inputY,expectedOutput]

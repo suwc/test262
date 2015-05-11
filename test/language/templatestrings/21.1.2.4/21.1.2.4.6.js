@@ -3,6 +3,7 @@
 
 /*---
 description: String.Raw(template,...substitutions) throws TypeError if template is undefined
+es6id: 12.2.9.1
 ---*/
 
 try {

@@ -3,6 +3,7 @@
 
 /*---
 description: "[[ComputedPropertyName]] A number as the computed property name"
+es6id: 12.2.6
 ---*/
 
 var a = 10;

@@ -4,6 +4,7 @@
 /*---
 description: Testing Number.parseFloat with sample values.
 includes: [runTestCase.js]
+es6id: 18.2.4
 ---*/
 
 function verify(act, exp) {

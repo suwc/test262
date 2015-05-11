@@ -3,8 +3,8 @@
 
 /*---
 description: IdentifierReference is a key word
-includes:
 negative: SyntaxError
+es6id: 12.2.6
 ---*/
 
 var obj = {

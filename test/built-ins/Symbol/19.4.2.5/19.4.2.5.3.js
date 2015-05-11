@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.keyFor(sym) returns the key which was passed to Symbol.for(key)
+es6id: 19.4.2.5
 ---*/
 
 var sym = Symbol.for('key');

@@ -3,6 +3,7 @@
 
 /*---
 description: "[[IdentifierReference]] IdentifierReference with arguments object"
+es6id: 12.2.6
 ---*/
 
 function test2() {

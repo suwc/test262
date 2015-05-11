@@ -3,6 +3,7 @@
 
 /*---
 description: Lambda with arguments as the rest argument
+es6id: 14.1
 ---*/
 
 function foo(a, ...arguments) {

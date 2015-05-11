@@ -4,6 +4,7 @@
 /*---
 description: Testing length property of Math.hypot
 includes: [runTestCase.js]
+es6id: 20.2.2.18
 ---*/
 
 function testcase() {

@@ -3,6 +3,7 @@
 
 /*---
 description: Object.getOwnPropertySymbols(obj) returns empty array if obj contains no symbol-keyed properties
+es6id: 19.1.2.8
 ---*/
 
 var obj = { 'string-key': 'value' };

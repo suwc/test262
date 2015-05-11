@@ -7,6 +7,7 @@ description: >
     property of Generator.prototype [ @@iterator ]() is
     "[Symbol.iterator]
 author: Nikhil Suryanarayanan
+es6id: 25.3
 ---*/
 
 var iter = (function *(){})();

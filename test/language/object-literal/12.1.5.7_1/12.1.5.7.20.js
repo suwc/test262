@@ -5,6 +5,7 @@
 description: >
     [[ComputedPropertyName]] Throw an exception from the computed
     property name calculation
+es6id: 12.2.6
 ---*/
 
 try {

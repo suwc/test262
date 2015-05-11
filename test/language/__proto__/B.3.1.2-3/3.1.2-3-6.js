@@ -4,6 +4,7 @@
 /*---
 description: "[[delete]] __proto__ function argumensts"
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

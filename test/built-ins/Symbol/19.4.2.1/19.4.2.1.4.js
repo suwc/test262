@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.for(key) returns a symbol with [[Description]] set to key
+es6id: 19.4.2.1
 ---*/
 
 var key = 'key';

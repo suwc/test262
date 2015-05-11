@@ -4,6 +4,7 @@
 /*---
 author: Kunal Pathak
 description: RegExp initialization takes sticky flag "y"
+es6id: 21.2.3.2.2
 ---*/
 
 //

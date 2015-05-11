@@ -4,6 +4,7 @@
 /*---
 description: yield in an array
 author: Nikhil Suryanarayanan
+es6id: 14.4.14
 ---*/
 
 function *gfoo() {

@@ -4,6 +4,7 @@
 /*---
 description: Yield in a compound statement
 author: Nikhil Suryanarayanan
+es6id: 14.4.14
 ---*/
 
 var o = {p:1}

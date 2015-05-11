@@ -4,6 +4,7 @@
 /*---
 description: Yield * AssignmentExpresion - Yield  * array
 author: Nikhil Suryanarayanan
+es6id: 14.4.14
 ---*/
 
 var arr = [1,5,2,4,3];

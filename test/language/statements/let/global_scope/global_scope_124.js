@@ -6,6 +6,7 @@ description: >
     Having a let declaration and an eval statement that assigns before
     initialization is an error
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 function testcase() {

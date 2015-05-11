@@ -3,6 +3,7 @@
 
 /*---
 description: "[[MethodDefinition]] Object returned from a function"
+es6id: 12.2.6
 ---*/
 
 var a = 10;

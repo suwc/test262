@@ -3,6 +3,7 @@
 
 /*---
 description: "[[PropName]] PropName is a key word"
+es6id: 12.2.6
 ---*/
 
 var obj = {

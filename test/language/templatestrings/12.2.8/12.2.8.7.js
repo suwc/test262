@@ -5,6 +5,7 @@
 description: >
     [[Substitutions]] Verify that exceptions originating from
     templates are propagated properly
+es6id: 12.2.9.1
 ---*/
 
 var x = 5;

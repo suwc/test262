@@ -4,6 +4,7 @@
 /*---
 description: Calling indexOf with other types should throw a TypeError
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.13
 ---*/
 
 var array = [ 1, 2, 4, 8, 16, 32, 8, 127 ];

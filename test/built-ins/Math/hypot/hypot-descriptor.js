@@ -3,9 +3,10 @@
 
 /*---
 description: Testing descriptor property of Math.hypot
-includes:
+includes: 
     - runTestCase.js
     - dataPropertyAttributesAreCorrect.js
+es6id: 20.2.2.18
 ---*/
 
 function testcase() {                         // obj,name,value,writable,enumerable,configurable

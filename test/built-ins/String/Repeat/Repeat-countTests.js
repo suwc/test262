@@ -4,6 +4,7 @@
 /*---
 description: String.prototype.repeat trhows with different values of count
 includes: [runTestCase.js]
+es6id: 21.1.3.13
 ---*/
 
 function testRepeatCounts(str,count) {

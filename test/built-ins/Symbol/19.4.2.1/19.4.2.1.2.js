@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.for(key) performs ToString(key). If it throws, Symbol.key throws
+es6id: 19.4.2.1
 ---*/
 
 try {

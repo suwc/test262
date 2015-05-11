@@ -4,6 +4,7 @@
 /*---
 description: "[[Get]] __proto__ on null and undefined"
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

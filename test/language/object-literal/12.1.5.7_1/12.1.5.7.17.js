@@ -5,6 +5,7 @@
 description: >
     [[ComputedPropertyName]] Verify the property descriptors for
     computed property
+es6id: 12.2.6
 ---*/
 
 var a = 10;

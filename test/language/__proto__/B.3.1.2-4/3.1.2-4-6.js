@@ -4,6 +4,7 @@
 /*---
 description: "[[DefineOwnProperty]] __proto__ on function arguments"
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

@@ -3,6 +3,7 @@
 
 /*---
 description: "[[Tagged-Substitutions]] Self-executing method as the tag"
+es6id: 12.2.9.1
 ---*/
 
 var str = "World";

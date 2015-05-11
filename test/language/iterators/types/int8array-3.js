@@ -5,6 +5,7 @@
 author: Murat Sutunc
 description: int8array-3.js
 includes: [compareArray.js]
+es6id: 22.2
 ---*/
 
 var test = [];

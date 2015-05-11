@@ -6,6 +6,7 @@ description: >
     Yield AssignmentExpression - ReturnIfAbrupt after evaluating
     AssignemntExpression
 author: Nikhil Suryanarayanan
+es6id: 14.4.14
 ---*/
 
 function foo() {throw "exception"}

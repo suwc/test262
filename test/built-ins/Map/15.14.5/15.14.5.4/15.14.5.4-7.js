@@ -4,6 +4,7 @@
 /*---
 description: Map.prototype.forEach values are visited in insertion order
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

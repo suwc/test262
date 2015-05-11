@@ -4,6 +4,7 @@
 /*---
 description: Add elements to the typed array in predicate
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.10
 ---*/
 
 var array = [ 1, 2, 4, 8, 16, 32, 64, 127 ];

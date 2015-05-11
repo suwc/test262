@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.prototype.toString uses SymbolDescriptiveString abstract operation (19.4.3.2.1). undefined symbol description becomes empty string
+es6id: 19.4.3.2
 ---*/
 
 try {

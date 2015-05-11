@@ -7,6 +7,7 @@ description: >
     OrdinaryCreateFromConstructor(F, "%WeakSetPrototype%", (
     [[WeakSetData]] )).
 author: Nikhil Suryanarayanan
+es6id: 23.4.2.2
 ---*/
 
 var ws = new WeakSet();

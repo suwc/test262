@@ -4,6 +4,7 @@
 /*---
 description: If value is < 0 or value > 0x10FFFF throw RangeError
 author: Murat Sutunc
+es6id: 21.1.2.1
 ---*/
 
 var error;

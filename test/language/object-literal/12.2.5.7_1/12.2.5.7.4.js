@@ -5,6 +5,7 @@
 description: >
     [[ComputedPropertyName]] Computed property name with self
     executing method
+es6id: 12.2.6
 ---*/
 
 var a = "prop", b = "Name";

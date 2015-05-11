@@ -3,6 +3,7 @@
 
 /*---
 description: "[[ComputedPropertyName]] Expression with array elements"
+es6id: 12.2.6
 ---*/
 
 var a = [ 'a', 'b', 'c', 'd' ];

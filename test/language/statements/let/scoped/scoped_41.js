@@ -5,6 +5,7 @@
 description: >
     Const declarations inside functions will shadow var declarations
     from the outer-scope
+es6id: 13.3.1
 ---*/
 
 try {

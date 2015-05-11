@@ -4,6 +4,7 @@
 /*---
 description: verifying isNaN on Number instead of Number prototype
 includes: [runTestCase.js]
+es6id: 20.1.2.4
 ---*/
 
 function testcase() {

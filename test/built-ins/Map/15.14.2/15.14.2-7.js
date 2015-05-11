@@ -6,6 +6,7 @@ description: >
     Map Constructor call() throws TypeError if thisArg gives false on
     calling [[GetExtensible]]
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

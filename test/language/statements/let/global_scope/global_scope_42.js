@@ -6,6 +6,7 @@ description: >
     It's a redeclaration error to have a var statement followed by a
     let statement inside a function with the same identifier name
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 function foo() {

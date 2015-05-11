@@ -6,6 +6,7 @@ description: >
     Object.preventExtensions(Object.prototype) should not affect
     pseudo property __proto__
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

@@ -6,6 +6,7 @@ description: >
     Modification of Object.prototype.__proto__. Setting it to
     {value:null}
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

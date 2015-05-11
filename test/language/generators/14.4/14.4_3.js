@@ -4,6 +4,7 @@
 /*---
 description: 14.4 - Anonymous function
 author: Nikhil Suryanarayanan
+es6id: 14.4
 ---*/
 
 var iter = (function *gfoo(){})();

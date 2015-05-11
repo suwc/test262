@@ -3,6 +3,7 @@
 
 /*---
 description: "[[IdentifierReference]] Symbol used as IdentifierReference"
+es6id: 12.2.6
 ---*/
 
 var a = Symbol('test');

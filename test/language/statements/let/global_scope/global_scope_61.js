@@ -7,6 +7,7 @@ description: >
     cause a redeclaration error if there is a  let declaration with
     the same identifier in the outer-scope
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 let i;

@@ -3,6 +3,7 @@
 
 /*---
 description: Object.getOwnPropertySymbols(obj) returns array containing symbol-keyed properties, ignoring string-keyed properties
+es6id: 19.1.2.8
 ---*/
 
 var sym = Symbol('1');

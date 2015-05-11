@@ -6,6 +6,7 @@ description: >
     Having const as an identifier is an error because it's a reserved
     keyword
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 function testcase() {

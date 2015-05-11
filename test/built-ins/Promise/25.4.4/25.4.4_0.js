@@ -6,6 +6,7 @@ description: >
     25.4.4 - The value of the [[Prototype]] internal slot of the
     Promise constructor is the Function prototype object
 author: Nikhil Suryanarayanan
+es6id: 25.4.4
 ---*/
 
 if(Promise.constructor.prototype !== Function.prototype)

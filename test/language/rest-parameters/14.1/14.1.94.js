@@ -3,6 +3,7 @@
 
 /*---
 description: Lambda method with rest
+es6id: 14.1
 ---*/
 
 var expectedArray = [3, 4, 5];

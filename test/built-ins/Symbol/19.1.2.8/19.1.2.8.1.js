@@ -3,6 +3,7 @@
 
 /*---
 description: Object.getOwnPropertySymbols throws TypeError if the this argument is undefined
+es6id: 19.1.2.8
 ---*/
 
 try {

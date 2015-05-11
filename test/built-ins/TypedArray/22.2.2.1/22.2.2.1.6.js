@@ -6,6 +6,7 @@ description: >
     Source is an object with length property and one item is deleted
     from the source
 includes: [TypedArrayHelper.js]
+es6id: 22.2.2.1
 ---*/
 
 //

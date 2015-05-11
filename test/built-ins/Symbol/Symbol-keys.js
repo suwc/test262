@@ -4,6 +4,7 @@
 /*---
 description: Testing Symbol properties on different Object types
 includes: [runTestCase.js]
+es6id: 19.4.3
 ---*/
 
 function verifySymbol(obj, sym) {

@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.keyFor(sym) returns undefined if sym was not registered via call to Symbol.key
+es6id: 19.4.2.5
 ---*/
 
 var sym = Symbol();

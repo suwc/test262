@@ -5,6 +5,7 @@
 author: Murat Sutunc
 description: array-1-3.js
 includes: [compareArray.js]
+es6id: 22.1.5
 ---*/
 
 var test = [];

@@ -3,9 +3,10 @@
 
 /*---
 description: Testing descriptor property of Math.trunc
-includes:
+includes: 
     - runTestCase.js
     - dataPropertyAttributesAreCorrect.js
+es6id: 20.1.2.6
 ---*/
 
 function testcase() {                        // obj,name,value,writable,enumerable,configurable

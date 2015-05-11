@@ -6,6 +6,7 @@ description: >
     Map.prototype.forEach arguments passed in foreach callbackfn are
     value, value and set object
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

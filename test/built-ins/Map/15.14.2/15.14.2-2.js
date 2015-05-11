@@ -4,6 +4,7 @@
 /*---
 description: Map Constructor as Function verfy whether result in instance of Map
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

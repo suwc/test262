@@ -5,6 +5,7 @@
 description: >
     [[IdentifierReference]] Value of IdentifierReference is captured
     during the definition
+es6id: 12.2.6
 ---*/
 
 var a = 10;

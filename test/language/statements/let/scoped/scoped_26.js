@@ -7,6 +7,7 @@ description: >
     hoists from a block  to a scope where there is a const statement
     with the same identifier
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 function testcase() {

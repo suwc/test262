@@ -3,6 +3,7 @@
 
 /*---
 description: "[[MethodDefinition]] Method definition accessing own properties"
+es6id: 12.2.6
 ---*/
 
 var a = 10;

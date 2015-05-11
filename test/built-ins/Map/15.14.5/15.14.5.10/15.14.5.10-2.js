@@ -4,6 +4,7 @@
 /*---
 description: get Map.prototype.size Empty Map
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

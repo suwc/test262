@@ -4,6 +4,7 @@
 /*---
 description: Testing APIs which are modified to incorporate symbols
 includes: [runTestCase.js]
+es6id: 19.4.3
 ---*/
 
 function testcase() {

@@ -5,6 +5,7 @@
 description: yield used an identifier
 author: Nikhil Suryanarayanan
 flags: [noStrict]
+es6id: 14.4
 ---*/
 
 var yield = 1;

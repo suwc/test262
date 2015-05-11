@@ -5,6 +5,7 @@
 author: Murat Sutunc
 description: map-manual-4.js
 includes: [compareArray.js]
+es6id: 23.1.5
 ---*/
 
 var test = [];

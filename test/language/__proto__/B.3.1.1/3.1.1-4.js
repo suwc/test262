@@ -7,6 +7,7 @@ description: >
     {writable:undefined, enumerable:false, configurable:true, getter &
     setter } attributes
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

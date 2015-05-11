@@ -5,6 +5,7 @@
 author: Murat Sutunc
 description: int16array-manual-4.js
 includes: [compareArray.js]
+es6id: 22.2
 ---*/
 
 var test = [];

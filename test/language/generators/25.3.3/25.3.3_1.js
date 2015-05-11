@@ -6,6 +6,7 @@ description: >
     2.    If generator does not have a [[GeneratorState]] internal
     slot, then throw a TypeError exception.
 author: Nikhil Suryanarayanan
+es6id: 25.3.3
 ---*/
 
 var gfoo = function*() {}

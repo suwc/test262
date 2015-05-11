@@ -6,6 +6,7 @@ description: >
     Testing Symbols with different Object creation APIs, get-set and
     nested Symbols
 includes: [runTestCase.js]
+es6id: 19.4.3
 ---*/
 
 function verifySymbol(obj, sym,val) {

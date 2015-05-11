@@ -4,6 +4,7 @@
 /*---
 description: Map Constructor call() as Function using Map.prototype as thisArg
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

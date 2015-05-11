@@ -8,6 +8,7 @@ description: >
     Otherwise let strict be false.
 author: Nikhil Suryanarayanan
 flags: [noStrict]
+es6id: 14.4
 ---*/
 
 var gfoo = function*() {

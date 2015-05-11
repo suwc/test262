@@ -4,6 +4,7 @@
 /*---
 description: Call forEach for an empty array
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.12
 ---*/
 
 function callbackFn(value, index, obj) {

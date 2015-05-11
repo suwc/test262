@@ -3,6 +3,7 @@
 
 /*---
 description: Bin and octal string literals
+es6id: 11.8.3
 ---*/
 
 var a = 1 + "0b101";

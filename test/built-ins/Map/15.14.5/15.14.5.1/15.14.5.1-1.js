@@ -6,6 +6,7 @@ description: >
     Initial value of Map.prototype.constructor is the built in Map
     constructor
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

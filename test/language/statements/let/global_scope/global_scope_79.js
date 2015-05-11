@@ -6,6 +6,7 @@ description: >
     const statements must be inside a block when used in for-loop
     statements
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 for (var i = 1; i >= 0; i--) const x = 1;

@@ -3,6 +3,7 @@
 
 /*---
 description: Const declarations are block scoped
+es6id: 13.3.1
 ---*/
 
 try {

@@ -4,6 +4,7 @@
 /*---
 description: (1, yield) - (yield, 1)
 author: Nikhil Suryanarayanan
+es6id: 14.4.14
 ---*/
 
 function *gfoo() {

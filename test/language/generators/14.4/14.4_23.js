@@ -5,6 +5,7 @@
 description: yield can be used inside a function
 author: Nikhil Suryanarayanan
 flags: [noStrict]
+es6id: 14.4
 ---*/
 
 function foo() {

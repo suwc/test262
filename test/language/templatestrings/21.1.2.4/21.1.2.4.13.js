@@ -3,6 +3,7 @@
 
 /*---
 description: String.raw(template,...substitutions) returns empty string if template.raw.length <= 0
+es6id: 12.2.9.1
 ---*/
 
 var template = { 'raw': { 'length': 0 } };

@@ -5,6 +5,7 @@
 author: Murat Sutunc
 description: int32array-2.js
 includes: [compareArray.js]
+es6id: 22.2
 ---*/
 
 var test = [];

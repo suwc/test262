@@ -4,6 +4,7 @@
 /*---
 description: mapFn throws an exception
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.18
 ---*/
 
 var superArrayIndex = 0;

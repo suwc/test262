@@ -4,6 +4,7 @@
 /*---
 description: Math.tanh with special values
 includes: [runTestCase.js]
+es6id: 20.2.2.34
 ---*/
 
 function testcase() {

@@ -3,6 +3,7 @@
 
 /*---
 description: Combination of rest and default
+es6id: 14.1
 ---*/
 
 var expectedArray = [1, 2, 3];

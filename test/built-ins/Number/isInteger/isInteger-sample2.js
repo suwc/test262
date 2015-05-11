@@ -4,6 +4,7 @@
 /*---
 description: Testing isInteger with sample values
 includes: [runTestCase.js]
+es6id: 20.1.2.3
 ---*/
 
 function testcase() {

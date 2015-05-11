@@ -4,6 +4,7 @@
 /*---
 description: "[[DefineOwnProperty]] __proto__ own property on user Object."
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

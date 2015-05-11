@@ -6,6 +6,7 @@ description: >
     Set.prototype.forEach should throw TypeError if callbackfn is
     undefined
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

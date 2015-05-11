@@ -3,6 +3,7 @@
 
 /*---
 description: "[[PropName]] Property name as a numeric literal"
+es6id: 12.2.6
 ---*/
 
 var obj = {

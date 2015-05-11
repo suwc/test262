@@ -3,6 +3,7 @@
 
 /*---
 description: "[[Substitutions]] Object literal test"
+es6id: 12.2.9.1
 ---*/
 
 var bool = true;

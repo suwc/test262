@@ -4,6 +4,7 @@
 /*---
 description: Literals are coerced to objects - Spreading String
 author: Nikhil Suryanarayanan
+es6id: 12.2.6.1
 ---*/
 
 var a = "string";

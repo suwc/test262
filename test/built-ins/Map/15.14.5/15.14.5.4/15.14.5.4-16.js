@@ -4,6 +4,7 @@
 /*---
 description: Map.prototype.forEach verify Exception exits the loop
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

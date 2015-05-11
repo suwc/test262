@@ -4,6 +4,7 @@
 /*---
 description: "ConciseBody :[lookahead { { }] AssignmentExpression"
 author: Nikhil Suryanrayanan
+es6id: 14.2
 ---*/
 
 x => x => x

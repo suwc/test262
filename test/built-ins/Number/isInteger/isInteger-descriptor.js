@@ -4,6 +4,7 @@
 /*---
 description: Testing descriptor property of Number.isInteger
 includes: [runTestCase.js]
+es6id: 20.1.2.3
 ---*/
 
 function modifyAndVerifyDescriptors(obj, prop) {

@@ -5,6 +5,7 @@
 description: >
     [[Substitutions]] These tests verify that the eval works fine with
     templates
+es6id: 12.2.9.1
 ---*/
 
 var x;

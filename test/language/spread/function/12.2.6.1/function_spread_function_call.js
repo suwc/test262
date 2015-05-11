@@ -4,6 +4,7 @@
 /*---
 description: using spread on array returned from function call
 author: Nikhil Suryanarayanan
+es6id: 12.2.6.1
 ---*/
 
 function q(a,b,c,d){

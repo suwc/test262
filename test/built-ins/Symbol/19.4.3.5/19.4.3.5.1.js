@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.prototype[@@toStringTag] === 'Symbol'
+es6id: 19.4.3.5
 ---*/
 
 if (Symbol.prototype[Symbol.toStringTag] !== 'Symbol') {

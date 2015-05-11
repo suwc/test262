@@ -3,7 +3,7 @@
 
 /*---
 description: yield is allowed as IdentifierReference
-includes:
+es6id: 12.2.6
 ---*/
 
 var yield = 10;

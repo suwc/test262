@@ -4,6 +4,7 @@
 /*---
 description: Map.prototype.set verify return type in undefined
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

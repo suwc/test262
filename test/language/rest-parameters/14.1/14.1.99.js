@@ -5,6 +5,7 @@
 description: >
     Rest params interaction with Function.prototype.call() with valid
     this parameter
+es6id: 14.1
 ---*/
 
 var obj = {

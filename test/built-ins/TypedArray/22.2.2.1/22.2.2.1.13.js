@@ -4,6 +4,7 @@
 /*---
 description: Invalid mapFn causes a TypeError
 includes: [TypedArrayHelper.js]
+es6id: 22.2.2.1
 ---*/
 
 //

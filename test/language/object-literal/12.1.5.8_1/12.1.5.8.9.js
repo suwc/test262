@@ -5,6 +5,7 @@
 description: >
     [[IdentifierReference]] IdentifierReference in cascaded with
     constructs
+es6id: 12.2.6
 ---*/
 
 var obj1 = {

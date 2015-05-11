@@ -4,6 +4,7 @@
 /*---
 description: let statements must be inside a block when used in with statements
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 function testcase() {

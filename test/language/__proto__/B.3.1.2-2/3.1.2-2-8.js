@@ -4,6 +4,7 @@
 /*---
 description: "[[Put]] __proto__ on built-in arguments object"
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

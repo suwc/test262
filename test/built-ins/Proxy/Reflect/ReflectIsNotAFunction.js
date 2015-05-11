@@ -2,9 +2,10 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-includes:
+includes: 
     - runTestCase.js
     - proxyLib.js
+es6id: 26.1
 ---*/
 
 // Reflect cannot be used as a constructor or a function

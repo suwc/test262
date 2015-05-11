@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: hoist-2-1.js
+es6id: 25.1
 ---*/
 
 var error;

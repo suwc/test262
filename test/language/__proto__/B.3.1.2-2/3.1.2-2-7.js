@@ -4,6 +4,7 @@
 /*---
 description: "[[Put]] __proto__ on user defined objects & overriden property"
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

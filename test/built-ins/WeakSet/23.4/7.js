@@ -6,6 +6,7 @@ description: >
     23.4.2 - The value of the [[Prototype]] internal slot of the
     WeakSet constructor is the Function prototype object
 author: Nikhil Suryanarayanan
+es6id: 23.4.2
 ---*/
 
 if (Object.getPrototypeOf(WeakSet) !== Function.prototype)

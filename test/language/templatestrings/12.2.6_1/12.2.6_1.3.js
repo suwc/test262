@@ -4,6 +4,7 @@
 /*---
 description: "[[Tagged-Substitutions]] Tagged handler"
 includes: [templateTestHandler.js]
+es6id: 12.2.9.1
 ---*/
 
 var obj = {

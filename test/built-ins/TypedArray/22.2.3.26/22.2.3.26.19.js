@@ -4,6 +4,7 @@
 /*---
 description: callbackFn returns an object
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.26
 ---*/
 
 var array = [ 8, 4, 64, 127, 32, 2, 16 ];

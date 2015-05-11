@@ -3,6 +3,7 @@
 
 /*---
 description: Rest params interaction with Function.prototype.apply()
+es6id: 14.1
 ---*/
 
 function foo(a, b = 10, ...c) {

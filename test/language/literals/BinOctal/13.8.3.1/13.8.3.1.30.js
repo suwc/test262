@@ -3,6 +3,7 @@
 
 /*---
 description: Big octal literal
+es6id: 11.8.3
 ---*/
 
 var a = 0o636413567457521745734147374723;

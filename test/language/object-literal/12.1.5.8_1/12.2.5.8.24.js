@@ -3,7 +3,7 @@
 
 /*---
 description: toString() of IdentifierReference should match the original method
-includes:
+es6id: 12.2.6
 ---*/
 
 var test = function () {

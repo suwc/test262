@@ -3,6 +3,7 @@
 
 /*---
 description: Pass null for rest parameter
+es6id: 14.1
 ---*/
 
 function foo(...args) {

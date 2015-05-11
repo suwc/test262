@@ -3,6 +3,7 @@
 
 /*---
 description: Use array methods on rest argument
+es6id: 14.1
 ---*/
 
 function foo(a = 10, ...elements) {

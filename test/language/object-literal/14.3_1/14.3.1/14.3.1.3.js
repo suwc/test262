@@ -3,8 +3,8 @@
 
 /*---
 description: It is a SyntaxError if the param list and function body contains the same variable name
-includes:
 negative: SyntaxError
+es6id: 12.2.6
 ---*/
 
 "use strict";

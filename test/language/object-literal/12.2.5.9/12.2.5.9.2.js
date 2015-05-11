@@ -3,7 +3,7 @@
 
 /*---
 description: IdentifierReference with duplicate accessor definition
-includes:
+es6id: 12.2.6
 ---*/
 
 var b = 1;

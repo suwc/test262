@@ -3,6 +3,7 @@
 
 /*---
 description: Const declarations can have multiple bindings in a single statement
+es6id: 13.3.1
 ---*/
 
 const x = 1, y = 2;

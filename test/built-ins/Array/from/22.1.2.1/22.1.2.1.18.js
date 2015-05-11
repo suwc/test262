@@ -5,6 +5,7 @@
 description: >
     Elements deleted after the call started and before visited are not
     visited
+es6id: 22.1.2.1
 ---*/
 
 var originalArray = [ 0, 1, -2, 4, -8, 16, -32, 64, -128, 256, -512, 1024 ];

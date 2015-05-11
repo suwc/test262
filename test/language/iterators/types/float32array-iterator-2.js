@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: float32array-iterator-2.js
+es6id: 22.2
 ---*/
 
 var error;

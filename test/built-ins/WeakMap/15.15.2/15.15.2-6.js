@@ -7,6 +7,7 @@ description: >
     [[WeakMapData]]
 flags: [noStrict]
 includes: [runTestCase.js]
+es6id: 23.3.2
 ---*/
 
 function testcase() {

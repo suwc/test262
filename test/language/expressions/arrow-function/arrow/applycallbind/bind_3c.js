@@ -4,6 +4,7 @@
 /*---
 description: invoke arrow function using bind
 author: Nikhil Suryanarayanan
+es6id: 14.2
 ---*/
 
 var b = {

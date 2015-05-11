@@ -3,6 +3,7 @@
 
 /*---
 description: Function multiple args and rest, invoked with spread
+es6id: 14.1
 ---*/
 
 var expectedArray = [3, 4, 5];

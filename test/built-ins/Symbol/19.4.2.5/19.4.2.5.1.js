@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.keyFor(sym) throws TypeError if sym is not a symbol
+es6id: 19.4.2.5
 ---*/
 
 try {

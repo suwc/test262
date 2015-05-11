@@ -4,6 +4,7 @@
 /*---
 description: Generator with a yield 1
 author: Nikhil Suryanarayanan
+es6id: 14.4.14
 ---*/
 
 var gfoo = function *() { yield 1; }

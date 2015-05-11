@@ -4,6 +4,7 @@
 /*---
 description: If IsPromise(promise) is false, throw a TypeError exception.
 author: Nikhil Suryanarayanan
+es6id: 25.4.5
 ---*/
 
 try{

@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.prototype.toString throws TypeError if the this argument does not have a [[SymbolData]] internal slot
+es6id: 19.4.3.2
 ---*/
 
 try {

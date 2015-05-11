@@ -6,6 +6,7 @@ description: >
     Promise - 3.    If Type(promise) is not Object, then throw a
     TypeError exception.
 author: Nikhil Suryanarayanan
+es6id: 25.4.3
 ---*/
 
 try{

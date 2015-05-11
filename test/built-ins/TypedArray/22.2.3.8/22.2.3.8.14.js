@@ -4,6 +4,7 @@
 /*---
 description: Both start and end are offsets from length
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.8
 ---*/
 
 var array = [ 127, 127, 127, 127, 127, 127, 127 ];

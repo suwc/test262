@@ -6,6 +6,7 @@ description: >
     23.4.3.1 - WeakSet.prototype.add - 8.    Append value as the last
     element of entries.
 author: Nikhil Suryanarayanan
+es6id: 23.4.3.1
 ---*/
 
 var ws = new WeakSet();

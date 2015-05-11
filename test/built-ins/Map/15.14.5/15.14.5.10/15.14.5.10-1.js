@@ -6,6 +6,7 @@ description: >
     get Map.prototype.size TypeError expected if thisArg does not have
     [[MapData]]
 includes: [runTestCase.js]
+es6id: 23.1
 ---*/
 
 function testcase() {

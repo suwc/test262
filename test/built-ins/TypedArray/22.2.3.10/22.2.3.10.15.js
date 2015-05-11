@@ -4,6 +4,7 @@
 /*---
 description: predicate assigns a new array to the typedArray
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.10
 ---*/
 
 var i = 0;

@@ -3,6 +3,7 @@
 
 /*---
 description: A parameter is named arguments
+es6id: 14.1
 ---*/
 
 function foo(a, arguments = 20, b) {

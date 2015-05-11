@@ -4,6 +4,7 @@
 /*---
 author: Murat Sutunc
 description: atat-iterator-1-11.js
+es6id: 25.1
 ---*/
 
 if (!Float64Array.prototype[Symbol.iterator]) {

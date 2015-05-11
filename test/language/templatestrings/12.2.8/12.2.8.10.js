@@ -3,6 +3,7 @@
 
 /*---
 description: "[[Substitutions]] Defining strict mode inside a string template"
+es6id: 12.2.9.1
 ---*/
 
 `${"use strict"}`;

@@ -3,6 +3,7 @@
 
 /*---
 description: String.raw(template,...substitutions) performs ToObject(template['raw']) which throws if property value is null
+es6id: 12.2.9.1
 ---*/
 
 try {

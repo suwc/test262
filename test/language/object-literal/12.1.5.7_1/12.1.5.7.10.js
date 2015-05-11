@@ -3,6 +3,7 @@
 
 /*---
 description: "[[ComputedPropertyName]] Object literal is created inside an eval"
+es6id: 12.2.6
 ---*/
 
 var a = 20, b = 30;

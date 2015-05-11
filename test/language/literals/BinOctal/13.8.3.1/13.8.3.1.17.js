@@ -3,6 +3,7 @@
 
 /*---
 description: Bitwise operators
+es6id: 11.8.3
 ---*/
 
 var result = 0B111 & 0b101;

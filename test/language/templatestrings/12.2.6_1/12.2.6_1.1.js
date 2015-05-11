@@ -4,6 +4,7 @@
 /*---
 description: "[[Tagged-Substitutions]] Tag method is invoked as an array member"
 includes: [templateTestHandler.js]
+es6id: 12.2.9.1
 ---*/
 
 var print = new Function("literals", "substitutions0", `

@@ -6,6 +6,7 @@ description: >
     23.4.1.1 - 3.    If set does not have a [[WeakSetData]] internal
     slot, then  throw a TypeError exception.
 author: Nikhil Suryanarayanan
+es6id: 23.4.1
 ---*/
 
 var error;

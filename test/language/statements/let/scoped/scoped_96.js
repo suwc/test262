@@ -5,6 +5,7 @@
 description: >
     Const statements will shadow object properties when used in with
     statement
+es6id: 13.3.1
 ---*/
 
 try {

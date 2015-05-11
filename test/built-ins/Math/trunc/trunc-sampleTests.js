@@ -4,6 +4,7 @@
 /*---
 description: sample tests for trunc
 includes: [runTestCase.js]
+es6id: 20.2.2.35
 ---*/
 
 function testcase() {

@@ -5,6 +5,7 @@
 description: >
     [[ComputedPropertyName]] Computed property name that invokes an
     Object method
+es6id: 12.2.6
 ---*/
 
 var obj = {

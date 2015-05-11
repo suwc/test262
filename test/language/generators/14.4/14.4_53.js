@@ -4,6 +4,7 @@
 /*---
 description: Yield a Regular Expression
 author: Nikhil Suryanarayanan
+es6id: 14.4
 ---*/
 
 function *gfoo() {

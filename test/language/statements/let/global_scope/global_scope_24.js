@@ -4,6 +4,7 @@
 /*---
 description: Const declarations are read-only
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 const x = 1;

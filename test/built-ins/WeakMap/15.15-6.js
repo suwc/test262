@@ -4,6 +4,7 @@
 /*---
 description: Prototype of WeakMap if Function
 includes: [runTestCase.js]
+es6id: 23.3.1
 ---*/
 
 function testcase() {

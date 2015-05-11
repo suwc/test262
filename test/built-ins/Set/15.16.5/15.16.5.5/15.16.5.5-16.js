@@ -4,6 +4,7 @@
 /*---
 description: Set.prototype.forEach verify Exception exits the loop
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

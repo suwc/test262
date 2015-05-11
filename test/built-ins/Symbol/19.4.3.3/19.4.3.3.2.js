@@ -3,6 +3,7 @@
 
 /*---
 description: Symbol.prototype.valueOf throws TypeError if the this argument is not an object
+es6id: 19.4.3.3
 ---*/
 
 try {

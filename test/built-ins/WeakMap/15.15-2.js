@@ -4,6 +4,7 @@
 /*---
 description: WeakMap is instance of Function
 includes: [runTestCase.js]
+es6id: 23.3.1
 ---*/
 
 function testcase() {

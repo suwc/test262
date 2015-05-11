@@ -3,7 +3,7 @@
 
 /*---
 description: Duplicate data properties
-includes:
+es6id: 12.2.6
 ---*/
 
 "use strict";

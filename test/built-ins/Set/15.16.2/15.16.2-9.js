@@ -6,6 +6,7 @@ description: >
     Set Constructor called as function. Verify prototype is not a Set
     and resulting object has [[SetData]]
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

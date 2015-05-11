@@ -4,6 +4,7 @@
 /*---
 description: 23.4.3.4 - WeakSet.prototype.delete - Delete a key from weakset
 author: Nikhil Suryanarayanan
+es6id: 23.4.3.3
 ---*/
 
 var ws = new WeakSet();

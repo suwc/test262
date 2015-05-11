@@ -4,6 +4,7 @@
 /*---
 description: WeakMap.prototype.set using eval and functions returning keys
 includes: [runTestCase.js]
+es6id: 23.3.3
 ---*/
 
 function testcase() {

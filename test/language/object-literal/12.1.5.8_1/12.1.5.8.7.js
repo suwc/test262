@@ -3,6 +3,7 @@
 
 /*---
 description: "[[IdentifierReference]] Unicode string for IdentifierReference"
+es6id: 12.2.6
 ---*/
 
 var A = 10;

@@ -4,6 +4,7 @@
 /*---
 description: Testing descriptor property of Math.atanh
 includes: [runTestCase.js]
+es6id: 20.2.2.7
 ---*/
 
 function modifyAndVerifyDescriptors(obj, prop) {

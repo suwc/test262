@@ -2,8 +2,9 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-author : Kunal Pathak
+author: Kunal Pathak
 description: Testing Object.IsExtensible for proxy
+es6id: 26.1
 ---*/
 
 //Test1: If IsExtensible is present on handler, we call handler.IsExtensible with right arguments

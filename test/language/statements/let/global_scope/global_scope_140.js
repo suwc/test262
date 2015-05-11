@@ -7,6 +7,7 @@ description: >
     an eval call and to have an assignment to that const variable
     before the eval call
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 function fn(){

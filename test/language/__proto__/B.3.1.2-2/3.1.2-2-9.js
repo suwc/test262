@@ -4,6 +4,7 @@
 /*---
 description: "[[Put]] __proto__ Assign arguments.__proto__ to Array.prototype"
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

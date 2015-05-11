@@ -6,6 +6,7 @@ description: >
     It's an early error to use the let statement before it's
     declaration
 flags: [negative]
+es6id: 13.3.1
 ---*/
 
 function testcase() {

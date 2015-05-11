@@ -4,6 +4,7 @@
 /*---
 description: "[[Get]] for __proto__ using with"
 includes: [runTestCase.js]
+es6id: B.3.1
 ---*/
 
 function testcase() {

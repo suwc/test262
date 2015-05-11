@@ -4,6 +4,7 @@
 /*---
 description: An empty array is reversed
 includes: [TypedArrayHelper.js]
+es6id: 22.2.3.21
 ---*/
 
 var array = [ ];

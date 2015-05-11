@@ -4,6 +4,7 @@
 /*---
 description: Set Constructor call() throws TypeError if thisArg has [[SetData]]
 includes: [runTestCase.js]
+es6id: 23.2
 ---*/
 
 function testcase() {

@@ -5,6 +5,7 @@
 description: Generator accessing a property of the name yield
 author: Nikhil Suryanarayanan
 flags: [noStrict]
+es6id: 14.4.14
 ---*/
 
 var obj = {
