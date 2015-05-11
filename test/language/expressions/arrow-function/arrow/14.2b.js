@@ -2,7 +2,7 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-description: "ConciseBody :[lookahead  { { }] AssignmentExpression"
+description: "ConciseBody :[lookahead { { }] AssignmentExpression"
 author: Nikhil Suryanrayanan
 ---*/
 
