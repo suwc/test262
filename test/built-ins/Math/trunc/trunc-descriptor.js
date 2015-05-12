@@ -4,12 +4,10 @@
 /*---
 description: Testing descriptor property of Math.trunc
 includes: 
-    - runTestCase.js
-    - dataPropertyAttributesAreCorrect.js
+    - propertyHelper.js
 es6id: 20.2.2.35
 ---*/
 
-function testcase() {                         // obj,name,value,writable,enumerable,configurable
-    return dataPropertyAttributesAreCorrect(Math, "trunc", Math.trunc, true, false, true);
-}
-runTestCase(testcase);
+verifyWritable(Math, "trunc");
+verifyNotEnumerable(Math, "trunc");
+verifyConfigurable(Math, "trunc");

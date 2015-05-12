@@ -9,11 +9,6 @@ es6id: 20.2.2.35
 
 function testcase() {
 
-    if (Number.isNaN(Math.trunc(NaN)) === false) {
-        $ERROR("Math.trunc produces incorrect output for NaN");
-        return false;
-    }
-
     if (Math.trunc(Number.NEGATIVE_INFINITY) !== Number.NEGATIVE_INFINITY) {
         $ERROR("Math.trunc should produce Number.NEGATIVE_INFINITY for Number.NEGATIVE_INFINITY");
         return false;

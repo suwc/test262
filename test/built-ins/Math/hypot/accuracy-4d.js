@@ -2,7 +2,7 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-description: Accuracy tests for cosh
+description: Accuracy tests for hypot
 includes: [runTestCase.js]
 es6id: 20.2.2.18
 ---*/

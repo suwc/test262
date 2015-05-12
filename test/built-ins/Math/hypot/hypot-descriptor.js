@@ -3,13 +3,11 @@
 
 /*---
 description: Testing descriptor property of Math.hypot
-includes: 
-    - runTestCase.js
-    - dataPropertyAttributesAreCorrect.js
+includes:
+    - propertyHelper.js
 es6id: 20.2.2.18
 ---*/
 
-function testcase() {                         // obj,name,value,writable,enumerable,configurable
-    return dataPropertyAttributesAreCorrect(Math, "hypot", Math.hypot, true, false, true);
-}
-runTestCase(testcase);
+verifyWritable(Math, "hypot");
+verifyNotEnumerable(Math, "hypot");
+verifyConfigurable(Math, "hypot");
