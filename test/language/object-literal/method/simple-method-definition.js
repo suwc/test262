@@ -3,7 +3,7 @@
 
 /*---
 description: Simple method definition with closure
-es6id: 12.2.6
+es6id: 14.3
 ---*/
 
 var a = "Hello", b = "World";

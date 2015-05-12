@@ -4,7 +4,7 @@
 /*---
 description: It is a SyntaxError if any element of param list is lexically declared in the function body
 negative: SyntaxError
-es6id: 12.2.6
+es6id: 14.3
 ---*/
 
 var obj = {

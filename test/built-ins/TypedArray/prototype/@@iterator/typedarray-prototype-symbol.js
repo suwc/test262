@@ -6,7 +6,7 @@ description: >
     %TypedArray%.prototype[Symbol.iterator] is the same function
     object as %TypedArray%.prototype.values
 includes: [TypedArrayHelper.js]
-es6id: 22.2.3.31
+es6id: 22.2.3.30
 ---*/
 
 var array = [ ];

@@ -3,7 +3,7 @@
 
 /*---
 description: __proto__ defined using ComputedProperty is treated as a new data property
-es6id: 12.2.6
+es6id: B.3.1
 ---*/
 
 var obj = {

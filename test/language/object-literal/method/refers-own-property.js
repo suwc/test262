@@ -3,7 +3,7 @@
 
 /*---
 description: Refers to own property
-es6id: 12.2.6
+es6id: 14.3
 ---*/
 
 var a = 10;

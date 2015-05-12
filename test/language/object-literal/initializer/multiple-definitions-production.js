@@ -4,7 +4,7 @@
 /*---
 description: Multiple definitions of __proto__ with the production PropertyDefinition => PropertyName:AssignmentExpression causes SyntaxError
 negative: SyntaxError
-es6id: 12.2.6
+es6id: B.3.1
 ---*/
 
 var obj = {

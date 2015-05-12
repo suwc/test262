@@ -3,7 +3,7 @@
 
 /*---
 description: "[[MethodDefinition]] Keyword as the method definition name"
-es6id: 12.2.6
+es6id: 14.3
 ---*/
 
 var obj = {

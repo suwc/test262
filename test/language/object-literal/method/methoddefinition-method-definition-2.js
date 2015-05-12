@@ -3,7 +3,7 @@
 
 /*---
 description: "[[MethodDefinition]] Method definition in strict mode"
-es6id: 12.2.6
+es6id: 14.3
 ---*/
 
 "use strict";
