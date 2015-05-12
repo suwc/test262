@@ -3,8 +3,8 @@
 
 /*---
 description: >
-    [[No-sbustitution]] These tests check the accuracy of template
-    literal evaluation without any substituions
+    [[No-substitution]] These tests check the accuracy of template
+    literal evaluation without any substitutions
 es6id: 12.2.9.1
 ---*/
 
