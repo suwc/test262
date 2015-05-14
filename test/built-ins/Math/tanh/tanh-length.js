@@ -3,11 +3,10 @@
 
 /*---
 description: Testing length property of Math.tanh
-includes: [runTestCase.js]
+includes:
+    - assert.js
 es6id: 20.2.2.34
 ---*/
 
-function testcase() {
-    return Math.tanh.length === 1;
-}
-runTestCase(testcase);
+assert.sameValue(Math.tanh.length, 1);
+

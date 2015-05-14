@@ -3,36 +3,16 @@
 
 /*---
 description: Math.cosh with special values
-includes: [runTestCase.js]
+includes:
+    - assert.js
 es6id: 20.2.2.13
 ---*/
 
-function testcase() {
-
-    if (Number.isNaN(Math.cosh(NaN)) === false) {
-        $ERROR("Math.cosh produces incorrect output for NaN");
-        return false;
-    }
-
-    if (Math.cosh(0) !== 1) {
-        $ERROR("Math.cosh should produce 1 for input = 0");
-        return false;
-    }
-
-    if (Math.cosh(-0) !== 1) {
-        $ERROR("Math.cosh should produce 1 for input = -0");
-        return false;
-    }
-
-    if (Math.cosh(Number.NEGATIVE_INFINITY) !== Number.POSITIVE_INFINITY) {
-        $ERROR("Math.cosh should produce Number.POSITIVE_INFINITY for Number.NEGATIVE_INFINITY");
-        return false;
-    }
-
-    if (Math.cosh(Number.POSITIVE_INFINITY) !== Number.POSITIVE_INFINITY) {
-        $ERROR("Math.cosh should produce Number.POSITIVE_INFINITY for Number.POSITIVE_INFINITY");
-        return false;
-    }
-    return true;
-}
-runTestCase(testcase);
+assert.sameValue(Math.cosh(NaN), Number.NaN,
+    "Math.cosh produces incorrect output for NaN");
+assert.sameValue(Math.cosh(0), 1, "Math.cosh should produce 1 for input = 0");
+assert.sameValue(Math.cosh(-0), 1, "Math.cosh should produce 1 for input = -0");
+assert.sameValue(Math.cosh(Number.NEGATIVE_INFINITY), Number.POSITIVE_INFINITY,
+    "Math.cosh should produce Number.POSITIVE_INFINITY for Number.NEGATIVE_INFINITY");
+assert.sameValue(Math.cosh(Number.POSITIVE_INFINITY), Number.POSITIVE_INFINITY,
+    "Math.cosh should produce Number.POSITIVE_INFINITY for Number.POSITIVE_INFINITY");

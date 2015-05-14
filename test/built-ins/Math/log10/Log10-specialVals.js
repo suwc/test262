@@ -3,34 +3,33 @@
 
 /*---
 description: Math.Log10 with sample values.
-includes: [runTestCase.js]
+includes:
+    - assert.js
 es6id: 20.2.2.20
 ---*/
 
-function verify(act, exp) {
-    if (Number.isNaN(exp)) {
-        return Number.isNaN(Math.log10(act));
-    }
-    return Math.log10(act) === exp;
-}
+assert.sameValue(Math.log10(-0), Number.NEGATIVE_INFINITY,
+    "Math.log10 produces incorrect output for -0");
+assert.sameValue(Math.log10(+0), Number.NEGATIVE_INFINITY,
+    "Math.log10 produces incorrect output for +0");
+assert.sameValue(Math.log10(-0.9), Number.NaN,
+    "Math.log10 produces incorrect output for -0.9");
+assert.sameValue(Math.log10(NaN), Number.NaN,
+    "Math.log10 produces incorrect output for NaN");
+assert.sameValue(Math.log10(-10), Number.NaN,
+    "Math.log10 produces incorrect output for -10");
+assert.sameValue(Math.log10(null), Number.NEGATIVE_INFINITY,
+    "Math.log10 produces incorrect output for null");
+assert.sameValue(Math.log10(undefined), Number.NaN,
+    "Math.log10 produces incorrect output for undefined");
+assert.sameValue(Math.log10(Number.POSITIVE_INFINITY), Number.POSITIVE_INFINITY,
+    "Math.log10 produces incorrect output for Number.POSITIVE_INFINITY");
+assert.sameValue(Math.log10(1), 0,
+    "Math.log10 produces incorrect output for 1");
+assert.sameValue(Math.log10(10.00), 1,
+    "Math.log10 produces incorrect output for 10.00");
+assert.sameValue(Math.log10(100.00), 2,
+    "Math.log10 produces incorrect output for 10.00");
+assert.sameValue(Math.log10(1000.00), 3,
+    "Math.log10 produces incorrect output for 10.00");
 
-function testcase() {
-    try {
-        var str = "sample";
-        var searchStr = "sam";
-        var inputs = [-0, +0, -0.9, NaN, -10, -Infinity, null, undefined, Number.POSITIVE_INFINITY,1,10.00,100.00,1000.00];
-        var outputs = [Number.NEGATIVE_INFINITY, Number.NEGATIVE_INFINITY, NaN, NaN, NaN, NaN, Number.NEGATIVE_INFINITY, NaN, Number.POSITIVE_INFINITY, 0, 1,2,3];
-        for (var i in inputs) {
-            if (verify(inputs[i],outputs[i])===false) {
-                $ERROR("Math.log10 produces incorrect output for " + inputs[i]);
-                return false;
-            }
-        }
-        return true;
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);

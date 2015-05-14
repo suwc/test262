@@ -3,41 +3,46 @@
 
 /*---
 description: sample tests for trunc
-includes: [runTestCase.js]
+includes: [assert.js]
 es6id: 20.2.2.35
 ---*/
 
-function testcase() {
+assert.sameValue(1 / Math.trunc(0.02047410048544407), Number.POSITIVE_INFINITY,
+    "Math.trunc should produce +0 for values between 0 and 1");
+assert.sameValue(1 / Math.trunc(0.00000000000000001), Number.POSITIVE_INFINITY,
+    "Math.trunc should produce +0 for values between 0 and 1");
+assert.sameValue(1 / Math.trunc(0.9999999999999999), Number.POSITIVE_INFINITY,
+    "Math.trunc should produce +0 for values between 0 and 1");
+assert.sameValue(1 / Math.trunc(Number.EPSILON), Number.POSITIVE_INFINITY,
+    "Math.trunc should produce +0 for values between 0 and 1");
+assert.sameValue(1 / Math.trunc(Number.MIN_VALUE), Number.POSITIVE_INFINITY,
+    "Math.trunc should produce +0 for values between 0 and 1");
 
-    var pos_inf = [0.02047410048544407, 0.00000000000000001, 0.9999999999999999, Number.EPSILON,Number.MIN_VALUE];
-    var neg_inf = [0.02047410048544407, 0.00000000000000001, 0.9999999999999999, -Number.EPSILON, Number.MIN_VALUE];
-    var sample_data = [Number.MAX_VALUE,-4.9,10, 3.9,-10,-3.9,4.9 ];
+assert.sameValue(1 / Math.trunc(-0.02047410048544407), Number.NEGATIVE_INFINITY,
+    "Math.trunc should produce -0 for values between -1 and 0");
+assert.sameValue(1 / Math.trunc(-0.00000000000000001), Number.NEGATIVE_INFINITY,
+    "Math.trunc should produce -0 for values between -1 and 0");
+assert.sameValue(1 / Math.trunc(-0.9999999999999999), Number.NEGATIVE_INFINITY,
+    "Math.trunc should produce -0 for values between -1 and 0");
+assert.sameValue(1 / Math.trunc(-Number.EPSILON), Number.NEGATIVE_INFINITY,
+    "Math.trunc should produce -0 for values between -1 and 0");
+assert.sameValue(1 / Math.trunc(-Number.MIN_VALUE), Number.NEGATIVE_INFINITY,
+    "Math.trunc should produce -0 for values between -1 and 0");
 
-    for (var i in pos_inf) {
-        if ((1 / Math.trunc(pos_inf[i])) !== Number.POSITIVE_INFINITY) {    // since +0===-0
-            $ERROR("Math.trunc should produce +0 for values between 0 and 1");
-        }
-    }
+assert.sameValue(Math.trunc(Number.MAX_VALUE), Math.floor(Number.MAX_VALUE),
+    "Math.trunc produces incorrect result for Number.MAX_VALUE");
+assert.sameValue(Math.trunc(10), Math.floor(10),
+    "Math.trunc produces incorrect result for 10");
+assert.sameValue(Math.trunc(3.9), Math.floor(3.9),
+    "Math.trunc produces incorrect result for 3.9");
+assert.sameValue(Math.trunc(4.9), Math.floor(4.9),
+    "Math.trunc produces incorrect result for 4.9");
 
-    for (var i in neg_inf) {
-        if ((1 / Math.trunc(-0.02047410048544407)) !== Number.NEGATIVE_INFINITY) {// since +0===-0
-            $ERROR("Math.trunc should produce -0 for values between -1 and 0");
-        }
-    }
-
-    for (var i in sample_data) {
-        if (sample_data[i] > 0) {
-            if(Math.floor(sample_data[i]) !== Math.trunc(sample_data[i])){
-                $ERROR("Math.trunc produces incorrect result for"+sample_data[i]);
-            }
-        }
-        else {
-            if(Math.ceil(sample_data[i]) !== Math.trunc(sample_data[i])){
-                $ERROR("Math.trunc produces incorrect result for"+sample_data[i]);
-            }
-        }
-    }
-
-    return true;
-}
-runTestCase(testcase);
+assert.sameValue(Math.trunc(-Number.MAX_VALUE), Math.ceil(-Number.MAX_VALUE),
+    "Math.trunc produces incorrect result for -Number.MAX_VALUE");
+assert.sameValue(Math.trunc(-10), Math.ceil(-10),
+    "Math.trunc produces incorrect result for -10");
+assert.sameValue(Math.trunc(-3.9), Math.ceil(-3.9),
+    "Math.trunc produces incorrect result for -3.9");
+assert.sameValue(Math.trunc(-4.9), Math.ceil(-4.9),
+    "Math.trunc produces incorrect result for -4.9");

@@ -3,11 +3,10 @@
 
 /*---
 description: Testing length property of Math.cosh
-includes: [runTestCase.js]
+includes:
+    - assert.js
 es6id: 20.2.2.13
 ---*/
 
-function testcase() {
-    return Math.cosh.length === 1;
-}
-runTestCase(testcase);
+assert.sameValue(Math.cosh.length, 1);
+

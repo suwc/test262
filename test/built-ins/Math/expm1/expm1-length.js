@@ -3,11 +3,10 @@
 
 /*---
 description: Testing length property of Math.expm1
-includes: [runTestCase.js]
+includes:
+    - assert.js
 es6id: 20.2.2.15
 ---*/
 
-function testcase() {
-    return Math.expm1.length === 1;
-}
-runTestCase(testcase);
+assert.sameValue(Math.expm1.length, 1);
+

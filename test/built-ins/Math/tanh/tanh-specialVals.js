@@ -3,35 +3,18 @@
 
 /*---
 description: Math.tanh with special values
-includes: [runTestCase.js]
+includes:
+    - assert.js
 es6id: 20.2.2.34
 ---*/
 
-function testcase() {
-    if (Number.isNaN(Math.tanh(NaN)) === false) {
-        $ERROR("Math.tanh produces incorrect output for NaN");
-        return false;
-    }
-
-    if (Math.tanh(Number.NEGATIVE_INFINITY) !== -1) {
-        $ERROR("Math.tanh should produce -1 for Number.NEGATIVE_INFINITY");
-        return false;
-    }
-
-    if (Math.tanh(Number.POSITIVE_INFINITY) !== 1) {
-        $ERROR("Math.tanh should produce 1 for Number.POSITIVE_INFINITY");
-        return false;
-    }
-
-    if ((1 / Math.tanh(-0)) !== Number.NEGATIVE_INFINITY) {
-        $ERROR("Math.tanh should produce -0 for -0");
-        return false;
-    }
-
-    if ((1 / Math.tanh(0)) !== Number.POSITIVE_INFINITY) {
-        $ERROR("Math.tanh should produce +0 for +0");
-        return false;
-    }
-        return true;
-}
-runTestCase(testcase);
+assert.sameValue(Math.tanh(NaN), Number.NaN,
+    "Math.tanh produces incorrect output for NaN");
+assert.sameValue(Math.tanh(Number.NEGATIVE_INFINITY), -1,
+    "Math.tanh should produce -1 for Number.NEGATIVE_INFINITY");
+assert.sameValue(Math.tanh(Number.POSITIVE_INFINITY), 1,
+    "Math.tanh should produce 1 for Number.POSITIVE_INFINITY");
+assert.sameValue(1/Math.tanh(-0), Number.NEGATIVE_INFINITY,
+    "Math.tanh should produce -0 for -0");
+assert.sameValue(1/Math.tanh(0), Number.POSITIVE_INFINITY,
+    "Math.tanh should produce +0 for +0");

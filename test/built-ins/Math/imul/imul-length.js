@@ -3,11 +3,10 @@
 
 /*---
 description: Testing length property of Math.imul
-includes: [runTestCase.js]
+includes:
+    - assert.js
 es6id: 20.2.2.19
 ---*/
 
-function testcase() {
-    return Math.imul.length === 2;
-}
-runTestCase(testcase);
+assert.sameValue(Math.imul.length, 2);
+

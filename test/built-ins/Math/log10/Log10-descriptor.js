@@ -3,18 +3,11 @@
 
 /*---
 description: Testing length property of Math.log10
-includes: [runTestCase.js]
+includes:
+    - propertyHelper.js
 es6id: 20.2.2.20
 ---*/
 
-function testcase() {
-    try {
-        var desc = Object.getOwnPropertyDescriptor(Math,"log10");
-        return (desc.configurable === true && desc.writable === true && desc.enumerable === false);
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+verifyWritable(Math, "log10");
+verifyNotEnumerable(Math, "log10");
+verifyConfigurable(Math, "log10");

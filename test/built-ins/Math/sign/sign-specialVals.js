@@ -3,27 +3,14 @@
 
 /*---
 description: Math.sign with special values
-includes: [runTestCase.js]
+includes:
+    - assert.js
 es6id: 20.2.2.29
 ---*/
 
-function testcase() {
-
-    if (Number.isNaN(Math.sign(NaN)) === false) {
-        $ERROR("Math.sign produces incorrect output for NaN");
-        return false;
-    }
-
-    if (1/Math.sign(-0) !== Number.NEGATIVE_INFINITY) {
-        $ERROR("Math.sign produces incorrect output for -0");
-        return false;
-    }
-
-    if (1 / Math.sign(0) !== Number.POSITIVE_INFINITY) {
-        $ERROR("Math.sign produces incorrect output for -0");
-        return false;
-    }
-
-    return true;
-}
-runTestCase(testcase);
+assert.sameValue(Math.sign(NaN), Number.NaN,
+    "Math.sign produces incorrect output for NaN");
+assert.sameValue(1/Math.sign(-0), Number.NEGATIVE_INFINITY,
+    "Math.sign produces incorrect output for -0");
+assert.sameValue(1/Math.sign(0), Number.POSITIVE_INFINITY,
+    "Math.sign produces incorrect output for 0");

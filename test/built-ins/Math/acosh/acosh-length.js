@@ -3,12 +3,10 @@
 
 /*---
 description: Testing length property of Math.acosh
-includes: [runTestCase.js]
+includes:
+    - assert.js
 es6id: 20.2.2.3
 ---*/
 
-function testcase() {
- return Math.acosh.length === 1;
+assert.sameValue(Math.acosh.length, 1);
 
-}
-runTestCase(testcase);

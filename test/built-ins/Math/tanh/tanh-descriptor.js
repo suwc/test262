@@ -3,41 +3,11 @@
 
 /*---
 description: Testing descriptor property of Math.tanh
-includes: [runTestCase.js]
+includes:
+    - propertyHelper.js
 es6id: 20.2.2.34
 ---*/
 
-function modifyAndVerifyDescriptors(obj, prop) {
-    //checking the descriptors by modifying them
-    if (Object.keys(obj).indexOf(prop) !== -1) {
-        $ERROR(prop + " should not be enumerable");
-    }
-
-    obj[prop] = "";
-    if (obj[prop] !== "") {
-        $ERROR(prop + "should be writable");
-    }
-
-    Object.defineProperty(obj, prop, { writable: false });
-    var desc = Object.getOwnPropertyDescriptor(obj, prop);
-    if (desc.writable !== false) {
-        $ERROR(prop + " should be configurable");
-    }
-    return true;
-
-}
-
-function testcase() {
-    try {
-        var desc = Object.getOwnPropertyDescriptor(Math, "tanh");
-        if (desc.configurable === true && desc.writable === true && desc.enumerable === false) {
-            return modifyAndVerifyDescriptors(Math, "tanh");
-        }
-        $ERROR("Incorrect Descriptor Values");
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+verifyWritable(Math, "tanh");
+verifyNotEnumerable(Math, "tanh");
+verifyConfigurable(Math, "tanh");

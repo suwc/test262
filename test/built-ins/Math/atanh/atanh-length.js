@@ -2,12 +2,11 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-description: Testing length property of Math.asinh
-includes: [runTestCase.js]
+description: Testing length property of Math.atanh
+includes:
+    - assert.js
 es6id: 20.2.2.7
 ---*/
 
-function testcase() {
-    return Math.atanh.length === 1;
-}
-runTestCase(testcase);
+assert.sameValue(Math.atanh.length, 1);
+

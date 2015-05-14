@@ -3,11 +3,10 @@
 
 /*---
 description: Testing length property of Math.asinh
-includes: [runTestCase.js]
+includes:
+    - assert.js
 es6id: 20.2.2.5
 ---*/
 
-function testcase() {
-    return Math.asinh.length === 1;
-}
-runTestCase(testcase);
+assert.sameValue(Math.asinh.length, 1);
+

@@ -3,12 +3,10 @@
 
 /*---
 description: Testing length property of Math.sign
-includes: [runTestCase.js]
+includes:
+    - assert.js
 es6id: 20.2.2.29
 ---*/
 
-function testcase() {
- return Math.sign.length === 1;
+assert.sameValue(Math.sign.length, 1);
 
-}
-runTestCase(testcase);

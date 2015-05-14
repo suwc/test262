@@ -3,11 +3,10 @@
 
 /*---
 description: Testing length property of Math.log1p
-includes: [runTestCase.js]
+includes:
+    - assert.js
 es6id: 20.2.2.21
 ---*/
 
-function testcase() {
-    return Math.log1p.length === 1;
-}
-runTestCase(testcase);
+assert.sameValue(Math.log1p.length, 1);
+

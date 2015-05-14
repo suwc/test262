@@ -3,11 +3,10 @@
 
 /*---
 description: Testing length property of Math.cbrt
-includes: [runTestCase.js]
+includes:
+    - assert.js
 es6id: 20.2.2.9
 ---*/
 
-function testcase() {
-    return Math.cbrt.length === 1;
-}
-runTestCase(testcase);
+assert.sameValue(Math.cbrt.length, 1);
+

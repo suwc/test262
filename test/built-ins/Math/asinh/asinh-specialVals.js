@@ -3,36 +3,18 @@
 
 /*---
 description: Math.asinh with special values
-includes: [runTestCase.js]
+includes:
+    - assert.js
 es6id: 20.2.2.5
 ---*/
 
-function testcase() {
-
-    if (Number.isNaN(Math.asinh(NaN)) === false) {
-        $ERROR("Math.asinh produces incorrect output for NaN");
-        return false;
-    }
-
-    if (Math.asinh(Number.NEGATIVE_INFINITY) !== Number.NEGATIVE_INFINITY) {
-        $ERROR("Math.asinh should produce negative infinity for Number.NEGATIVE_INFINITY");
-        return false;
-    }
-
-    if (Math.asinh(Number.POSITIVE_INFINITY) !== Number.POSITIVE_INFINITY) {
-        $ERROR("Math.asinh should produce positive infinity for Number.POSITIVE_INFINITY");
-        return false;
-    }
-
-    if ((1 / Math.asinh(-0)) !== Number.NEGATIVE_INFINITY) {
-        $ERROR("Math.asinh should produce -0 for -0");
-        return false;
-    }
-
-    if ((1 / Math.asinh(0)) !== Number.POSITIVE_INFINITY) {
-        $ERROR("Math.asinh should produce +0 for +0");
-        return false;
-    }
-    return true;
-}
-runTestCase(testcase);
+assert.sameValue(Math.asinh(NaN), Number.NaN,
+    "Math.asinh produces incorrect output for NaN");
+assert.sameValue(Math.asinh(Number.NEGATIVE_INFINITY), Number.NEGATIVE_INFINITY,
+    "Math.asinh should produce negative infinity for Number.NEGATIVE_INFINITY");
+assert.sameValue(Math.asinh(Number.POSITIVE_INFINITY), Number.POSITIVE_INFINITY,
+    "Math.asinh should produce positive infinity for Number.POSITIVE_INFINITY");
+assert.sameValue(1 / Math.asinh(-0), Number.NEGATIVE_INFINITY,
+    "Math.asinh should produce -0 for -0");
+assert.sameValue(1 / Math.asinh(0), Number.POSITIVE_INFINITY,
+    "Math.asinh should produce +0 for +0");
