@@ -7,6 +7,7 @@
 /*---
 es5id: 10.6-12-2
 description: arguments.callee has correct attributes
+flags: [noStrict]
 includes: [runTestCase.js]
 ---*/
 
