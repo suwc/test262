@@ -3,32 +3,33 @@
 
 /*---
 description: Math.Log2 with sample values.
-includes: [runTestCase.js]
+includes: [assert.js]
 es6id: 20.2.2.23
 ---*/
 
-function verify(act, exp) {
-    if (Number.isNaN(exp)) {
-        return Number.isNaN(Math.log2(act));
-    }
-    return Math.log2(act) === exp;
-}
-
-function testcase() {
-    try {
-        var inputs = [-0, +0, -0.9, NaN, -10, -Infinity, null, undefined, Number.POSITIVE_INFINITY,1,2.00,4.00,8.00];
-        var outputs = [Number.NEGATIVE_INFINITY, Number.NEGATIVE_INFINITY, NaN, NaN, NaN, NaN, Number.NEGATIVE_INFINITY, NaN, Number.POSITIVE_INFINITY,0,1,2,3];
-        for (var i in inputs) {
-            if (verify(inputs[i],outputs[i])===false) {
-                $ERROR("Math.log2 produces incorrect output for " +inputs[i]);
-                return false;
-            }
-        }
-        return true;
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+assert.sameValue(Math.log2(-0), Number.NEGATIVE_INFINITY,
+    "Math.log2 produces incorrect output for -0");
+assert.sameValue(Math.log2(+0), Number.NEGATIVE_INFINITY,
+    "Math.log2 produces incorrect output for +0");
+assert.sameValue(Math.log2(-0.9), NaN,
+    "Math.log2 produces incorrect output for -0.9");
+assert.sameValue(Math.log2(NaN), NaN,
+    "Math.log2 produces incorrect output for NaN");
+assert.sameValue(Math.log2(-10), NaN,
+    "Math.log2 produces incorrect output for -10");
+assert.sameValue(Math.log2(-Infinity), NaN,
+    "Math.log2 produces incorrect output for -Infinity");
+assert.sameValue(Math.log2(null), Number.NEGATIVE_INFINITY,
+    "Math.log2 produces incorrect output for null");
+assert.sameValue(Math.log2(undefined), NaN,
+    "Math.log2 produces incorrect output for undefined");
+assert.sameValue(Math.log2(Number.POSITIVE_INFINITY), Number.POSITIVE_INFINITY,
+    "Math.log2 produces incorrect output for Number.POSITIVE_INFINITY");
+assert.sameValue(Math.log2(1), 0,
+    "Math.log2 produces incorrect output for 1");
+assert.sameValue(Math.log2(2.00), 1,
+    "Math.log2 produces incorrect output for 2.00");
+assert.sameValue(Math.log2(4.00), 2,
+    "Math.log2 produces incorrect output for 4.00");
+assert.sameValue(Math.log2(8.00), 3,
+    "Math.log2 produces incorrect output for 8.00");

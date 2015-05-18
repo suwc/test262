@@ -29,7 +29,7 @@ assert.sameValue(Math.log10(1), 0,
 assert.sameValue(Math.log10(10.00), 1,
     "Math.log10 produces incorrect output for 10.00");
 assert.sameValue(Math.log10(100.00), 2,
-    "Math.log10 produces incorrect output for 10.00");
+    "Math.log10 produces incorrect output for 100.00");
 assert.sameValue(Math.log10(1000.00), 3,
-    "Math.log10 produces incorrect output for 10.00");
+    "Math.log10 produces incorrect output for 1000.00");
 
