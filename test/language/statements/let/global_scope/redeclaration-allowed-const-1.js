@@ -3,8 +3,8 @@
 
 /*---
 description: Redeclaration is not allowed for const statements
-flags: [negative]
 es6id: 13.3.1
+negative: SyntaxError
 ---*/
 
 const x = 1;

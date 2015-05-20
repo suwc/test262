@@ -3,8 +3,8 @@
 
 /*---
 description: A let statement which is declared in a for-loop doesn't get hoisted
-flags: [negative]
 es6id: 13.3.1
+negative: ReferenceError
 ---*/
 
 for (let i = 1; i > 0; i--) {

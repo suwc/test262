@@ -6,8 +6,8 @@ description: >
     var statements hoist from the block scope and will cause
     redeclaration error if  there already is a let statement with the
     same identifier on the outer scope
-flags: [negative]
 es6id: 13.3.1
+negative: SyntaxError
 ---*/
 
 {

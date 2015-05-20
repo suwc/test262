@@ -6,8 +6,8 @@ description: >
     Having a var declaration inside an eval in a block and a const
     declaration on the outer-scope will give an error  if they share
     the same identifier name
-flags: [negative]
 es6id: 13.3.1
+negative: CustomError
 ---*/
 
 try {

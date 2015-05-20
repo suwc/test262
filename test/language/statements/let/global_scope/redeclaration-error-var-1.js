@@ -6,8 +6,8 @@ description: >
     It should be an redeclaration error to have a var statement which
     hoists from a block  to a scope where there is a let statement
     with the same identifier
-flags: [negative]
 es6id: 13.3.1
+negative: SyntaxError
 ---*/
 
 let x = 1;

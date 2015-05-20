@@ -5,10 +5,9 @@
 description: >
     Using eval as an identifier in strict mode let statements is an
     error
-flags: 
-    - negative
-    - onlyStrict
+flags: [onlyStrict]
 es6id: 13.3.1
+negative: SyntaxError
 ---*/
 
 function testcase() {

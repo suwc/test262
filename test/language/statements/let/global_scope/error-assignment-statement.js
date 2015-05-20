@@ -5,8 +5,8 @@
 description: >
     It should be an error to make an assignment to a let statement
     before it's initialized on the global scope
-flags: [negative]
 es6id: 13.3.1
+negative: ReferenceError
 ---*/
 
 x++;

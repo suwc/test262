@@ -5,8 +5,8 @@
 description: >
     Inside the switch statements it's an error if a let statement is
     assigned before initialization
-flags: [negative]
 es6id: 13.3.1
+negative: ReferenceError
 ---*/
 
 function testcase() {

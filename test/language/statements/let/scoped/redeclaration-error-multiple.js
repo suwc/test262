@@ -5,8 +5,8 @@
 description: >
     It's a redeclaration error to have multiple let statements with
     same identifier inside a switch statement
-flags: [negative]
 es6id: 13.3.1
+negative: SyntaxError
 ---*/
 
 function testcase() {

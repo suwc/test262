@@ -6,8 +6,8 @@ description: >
     Having a variable declaration inside an eval in a block will hoist
     and throw error if there is a let statement  in the outer-scope
     with the same identifier
-flags: [negative]
 es6id: 13.3.1
+negative: ReferenceError
 ---*/
 
 function testcase() {

@@ -5,8 +5,8 @@
 description: >
     It should be an error to assign a let/const to a variable before
     it's initialized
-flags: [negative]
 es6id: 13.3.1
+negative: ReferenceError
 ---*/
 
 var x = z;

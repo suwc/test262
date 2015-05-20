@@ -5,8 +5,8 @@
 description: >
     Having a const declaration inside an eval and assigning before
     initialization is an error
-flags: [negative]
 es6id: 13.3.1
+negative: CustomError
 ---*/
 
 try {

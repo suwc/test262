@@ -5,8 +5,8 @@
 description: >
     let statements must be inside a block when used in for-in
     statements
-flags: [negative]
 es6id: 13.3.1
+negative: SyntaxError
 ---*/
 
 var data = {name: "john", surname:"doe"};

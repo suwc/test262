@@ -3,9 +3,9 @@
 
 /*---
 description: Source object has iterator
-flags: [negative]
 includes: [TypedArrayHelper.js]
 es6id: 22.2.2.2
+negative: CustomError
 ---*/
 
 function CreateTypedArraysOfWithString(obj) {

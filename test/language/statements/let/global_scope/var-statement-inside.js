@@ -5,8 +5,8 @@
 description: >
     A var statement inside a switch will hoist and cause a
     redeclaration error if there is a let statement  in the outer-scope
-flags: [negative]
 es6id: 13.3.1
+negative: SyntaxError
 ---*/
 
 let i = 1;
