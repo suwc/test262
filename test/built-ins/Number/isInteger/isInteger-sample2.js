@@ -3,19 +3,12 @@
 
 /*---
 description: Testing isInteger with sample values
-includes: [runTestCase.js]
 es6id: 20.1.2.3
 ---*/
 
-function testcase() {
+assert.notSameValue(Number.isInteger(1.0), false);
+assert.notSameValue(Number.isInteger(1.000000000000000000000000001), false);
+assert.notSameValue(Number.isInteger(0xFFFFF), false);
+assert.notSameValue(Number.isInteger(007), false);
+assert.notSameValue(Number.isInteger(Number.MAX_SAFE_INTEGER), false);
 
-        var inputs = [1.0,1.000000000000000000000000001,0xFFFFF,007,Number.MAX_SAFE_INTEGER];
-        for (var i in inputs) {
-            if (Number.isInteger(inputs[i])===false){
-                $ERROR("Number.isInteger produces incorrect output for " + inputs[i]);
-            }
-        }
-        return true;
-
-}
-runTestCase(testcase);

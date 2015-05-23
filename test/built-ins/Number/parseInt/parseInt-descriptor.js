@@ -3,41 +3,11 @@
 
 /*---
 description: Testing descriptor property of Number.parseInt
-includes: [runTestCase.js]
+includes: [propertyHelper.js]
 es6id: 18.2.5
 ---*/
 
-function modifyAndVerifyDescriptors(obj, prop) {
-    //checking the descriptors by modifying them
-    if (Object.keys(obj).indexOf(prop) !== -1) {
-        $ERROR(prop + " should not be enumerable");
-    }
+verifyWritable(Number, "parseInt");
+verifyNotEnumerable(Number, "parseInt");
+verifyConfigurable(Number, "parseInt");
 
-    obj[prop] = "";
-    if (obj[prop] !== "") {
-        $ERROR(prop + "should be writable");
-    }
-
-    Object.defineProperty(obj, prop, { writable: false });
-    var desc = Object.getOwnPropertyDescriptor(obj, prop);
-    if (desc.writable !== false) {
-        $ERROR(prop + " should be configurable");
-    }
-    return true;
-
-}
-
-function testcase() {
-    try {
-        var desc = Object.getOwnPropertyDescriptor(Number, "parseInt");
-        if (desc.configurable === true && desc.writable === true && desc.enumerable === false) {
-            return modifyAndVerifyDescriptors(Number, "parseInt");
-        }
-        $ERROR("Incorrect Descriptor Values");
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);

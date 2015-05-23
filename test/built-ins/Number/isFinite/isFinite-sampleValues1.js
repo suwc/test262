@@ -3,24 +3,16 @@
 
 /*---
 description: Testing Number.isFinite with sample values.
-includes: [runTestCase.js]
 es6id: 20.1.2.2
 ---*/
 
-function testcase() {
-    try {
-        var inputs = [Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY, NaN, "1", undefined, null, true, false, new Object(1)];
-        for (var i in inputs) {
-            if (Number.isFinite(inputs[i]) !== false) {
-                $ERROR("Number.isFinite produces incorrect output for: " + inputs[i]);
-                return false;
-            }
-        }
-        return true;
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+assert.sameValue(Number.isFinite(Number.POSITIVE_INFINITY), false);
+assert.sameValue(Number.isFinite(Number.NEGATIVE_INFINITY), false);
+assert.sameValue(Number.isFinite(NaN), false);
+assert.sameValue(Number.isFinite("1"), false);
+assert.sameValue(Number.isFinite(undefined), false);
+assert.sameValue(Number.isFinite(null), false);
+assert.sameValue(Number.isFinite(true), false);
+assert.sameValue(Number.isFinite(false), false);
+assert.sameValue(Number.isFinite(new Object(1)), false);
+

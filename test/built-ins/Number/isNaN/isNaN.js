@@ -3,21 +3,10 @@
 
 /*---
 description: verifying isNaN on Number instead of Number prototype
-includes: [runTestCase.js]
 es6id: 20.1.2.4
 ---*/
 
-function testcase() {
-    try {
-        var num = new Number();
-        if (num.isNaN !== undefined && Object.getOwnPropertyNames(Number.prototype).indexOf("isNaN") !== -1) {
-            $ERROR("Number.isNaN should not be on the Number prototype");
-        }
-        return true;
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+var num = new Number();
+assert.sameValue(num.isNaN, undefined);
+assert.sameValue(Object.getOwnPropertyNames(Number.prototype).indexOf("isNaN"), -1);
+

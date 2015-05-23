@@ -3,17 +3,8 @@
 
 /*---
 description: Make sure Number.isFinite is on Number rather than Number.prototype
-includes: [runTestCase.js]
 es6id: 20.1.2.2
 ---*/
 
-function testcase() {
-    try {
-        return (Object.getOwnPropertyNames(Number.prototype).indexOf("isFinite")===-1);
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+assert.sameValue(Object.getOwnPropertyNames(Number.prototype).indexOf("isFinite"), -1);
+

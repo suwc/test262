@@ -3,25 +3,15 @@
 
 /*---
 description: Checking the length of Number.isNaN
-includes: [runTestCase.js]
 es6id: 20.1.2.4
 ---*/
 
-function testcase() {
-    try {
-        var inputs = [NaN, true, false, undefined, null, Number.POSITIVE_INFINITY,+0,-0];
-        var outputs = [true, false, false, false, false, false,false,false];
-        for (var i in inputs) {
-            if (Number.isNaN(inputs[i]) !== outputs[i]) {
-                $ERROR("Number.isNan returned incorrect values for: " + inputs[i]);
-                return false;
-            }
-        }
-        return true;
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+assert.sameValue(Number.isNaN(NaN), true);
+assert.sameValue(Number.isNaN(true), false);
+assert.sameValue(Number.isNaN(false), false);
+assert.sameValue(Number.isNaN(undefined), false);
+assert.sameValue(Number.isNaN(null), false);
+assert.sameValue(Number.isNaN(Number.POSITIVE_INFINITY), false);
+assert.sameValue(Number.isNaN(+0), false);
+assert.sameValue(Number.isNaN(-0), false);
+

@@ -3,11 +3,8 @@
 
 /*---
 description: Testing Number.parseFloat === parseFloat.
-includes: [runTestCase.js]
 es6id: 18.2.4
 ---*/
 
-function testcase() {
-   return Number.parseFloat === parseFloat;
-}
-runTestCase(testcase);
+assert.sameValue(Number.parseFloat, parseFloat);
+

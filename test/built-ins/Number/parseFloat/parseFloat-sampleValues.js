@@ -3,32 +3,16 @@
 
 /*---
 description: Testing Number.parseFloat with sample values.
-includes: [runTestCase.js]
 es6id: 18.2.4
 ---*/
 
-function verify(act, exp) {
-    if (Number.isNaN(exp)) {
-        return Number.isNaN(Number.parseFloat(act));
-    }
-    return Number.parseFloat(act) === exp;
-}
+assert.sameValue(Number.parseFloat(Number.POSITIVE_INFINITY), Number.POSITIVE_INFINITY);
+assert.sameValue(Number.parseFloat(Number.NEGATIVE_INFINITY), Number.NEGATIVE_INFINITY);
+assert.sameValue(Number.parseFloat(NaN), NaN);
+assert.sameValue(Number.parseFloat("1.000000001"), 1.000000001);
+assert.sameValue(Number.parseFloat(undefined), NaN);
+assert.sameValue(Number.parseFloat(null), NaN);
+assert.sameValue(Number.parseFloat(true), NaN);
+assert.sameValue(Number.parseFloat(false), NaN);
+assert.sameValue(Number.parseFloat(new Object(1.01)), 1.01);
 
-function testcase() {
-    try {
-        var inputs = [Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY, NaN, "1.000000001", undefined, null, true, false, new Object(1.01)];
-        var outputs = [Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY, NaN, 1.000000001, NaN, NaN, NaN, NaN, 1.01];
-        for (var i in inputs) {
-            if (verify(inputs[i], outputs[i]) === false) {
-                $ERROR("Number.parseFloat produces incorrect output for " + inputs[i]);
-                return false;
-            }
-        }
-        return true;
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);

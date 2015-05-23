@@ -3,32 +3,16 @@
 
 /*---
 description: Testing Number.parseInt with sample values.
-includes: [runTestCase.js]
 es6id: 18.2.5
 ---*/
 
-function verify(act, exp) {
-    if (Number.isNaN(exp)) {
-        return Number.isNaN(Number.parseInt(act));
-    }
-    return Number.parseInt(act) === exp;
-}
+assert.sameValue(Number.parseInt(Number.POSITIVE_INFINITY), NaN);
+assert.sameValue(Number.parseInt(Number.NEGATIVE_INFINITY), NaN);
+assert.sameValue(Number.parseInt(NaN), NaN);
+assert.sameValue(Number.parseInt("1"), 1);
+assert.sameValue(Number.parseInt(undefined), NaN);
+assert.sameValue(Number.parseInt(null), NaN);
+assert.sameValue(Number.parseInt(true), NaN);
+assert.sameValue(Number.parseInt(false), NaN);
+assert.sameValue(Number.parseInt(new Object(1)), 1);
 
-function testcase() {
-    try {
-        var inputs = [Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY, NaN, "1", undefined, null, true, false, new Object(1)];
-        var outputs = [NaN, NaN, NaN, 1, NaN, NaN, NaN, NaN, 1];
-        for (var i in inputs) {
-            if (verify(inputs[i], outputs[i]) === false) {
-                $ERROR("Number.parseInt produces incorrect output for " + inputs[i]);
-                return false;
-            }
-        }
-        return true;
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);

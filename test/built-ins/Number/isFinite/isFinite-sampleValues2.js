@@ -3,25 +3,12 @@
 
 /*---
 description: Testing Number.isFinite with sample values.
-includes: [runTestCase.js]
 es6id: 20.1.2.2
 ---*/
 
-function testcase() {
-    try {
-        var inputs = [Number.MAX_VALUE * 1.00001, -0.0, +0.0, 0xFFFFF, 003];
-        var outputs = [false, true, true, true, true];
-        for (var i in inputs) {
-            if (Number.isFinite(inputs[i]) !== outputs[i]) {
-                $ERROR("Number.isFinite produces incorrect output for: " + i);
-                return false;
-            }
-        }
-        return true;
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+assert.sameValue(Number.isFinite(Number.MAX_VALUE * 1.00001), false);
+assert.sameValue(Number.isFinite(-0.0), true);
+assert.sameValue(Number.isFinite(+0.0), true);
+assert.sameValue(Number.isFinite(0xFFFFF), true);
+assert.sameValue(Number.isFinite(003), true);
+

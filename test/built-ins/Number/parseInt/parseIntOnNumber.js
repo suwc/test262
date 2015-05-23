@@ -3,17 +3,8 @@
 
 /*---
 description: Make sure Number.parseInt is on Number rather than Number.prototype
-includes: [runTestCase.js]
 es6id: 18.2.5
 ---*/
 
-function testcase() {
-    try {
-        return (Object.getOwnPropertyNames(Number.prototype).indexOf("parseInt")===-1);
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+assert.sameValue(Object.getOwnPropertyNames(Number.prototype).indexOf("parseInt"), -1);
+

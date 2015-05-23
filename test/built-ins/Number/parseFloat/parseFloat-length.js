@@ -3,11 +3,8 @@
 
 /*---
 description: Testing length property of Number.parseFloat
-includes: [runTestCase.js]
 es6id: 18.2.4
 ---*/
 
-function testcase() {
-    return Number.parseFloat.length === 1;
-}
-runTestCase(testcase);
+assert.sameValue(Number.parseFloat.length, 1);
+

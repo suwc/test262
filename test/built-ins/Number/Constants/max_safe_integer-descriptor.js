@@ -3,13 +3,12 @@
 
 /*---
 description: Testing descriptor property of Math.trunc
-includes: 
-    - runTestCase.js
-    - dataPropertyAttributesAreCorrect.js
+includes: [propertyHelper.js]
 es6id: 20.1.2.6
 ---*/
 
-function testcase() {                        // obj,name,value,writable,enumerable,configurable
-    return dataPropertyAttributesAreCorrect(Number, "MAX_SAFE_INTEGER", 9007199254740991, false, false, false);
-}
-runTestCase(testcase);
+assert.sameValue(Number.MAX_SAFE_INTEGER, 9007199254740991);
+verifyNotWritable(Number, "MAX_SAFE_INTEGER");
+verifyNotEnumerable(Number, "MAX_SAFE_INTEGER");
+verifyNotConfigurable(Number, "MAX_SAFE_INTEGER");
+

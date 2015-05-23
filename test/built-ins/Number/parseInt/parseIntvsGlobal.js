@@ -3,12 +3,8 @@
 
 /*---
 description: Testing Number.parseInt === parseInt.
-includes: [runTestCase.js]
 es6id: 18.2.5
 ---*/
 
-function testcase() {
-      return Number.parseInt === parseInt;
+assert.sameValue(Number.parseInt, parseInt);
 
-}
-runTestCase(testcase);

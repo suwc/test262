@@ -3,26 +3,12 @@
 
 /*---
 description: Testing isNaN on sample values.
-includes: [runTestCase.js]
 es6id: 20.1.2.4
 ---*/
 
-function testcase() {
-    try{
-        var num = new Number(-0.3);
-        var inputs = [new Number(-.3), "NaN", new Uint16Array(), new Object(), new String("NaN")];
+assert.sameValue(Number.isNaN(new Number(-.3)), false);
+assert.sameValue(Number.isNaN("NaN"), false);
+assert.sameValue(Number.isNaN(new Uint16Array()), false);
+assert.sameValue(Number.isNaN(new Object()), false);
+assert.sameValue(Number.isNaN(new String("NaN")), false);
 
-        for(var i in inputs){
-        if (Number.isNaN(inputs) !== false) {
-            $ERROR("Number.isNan returned incorrect values for: " + inputs[i]);
-            return false;
-        }
-    }
-    return true;
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
