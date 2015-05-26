@@ -3,18 +3,9 @@
 
 /*---
 description: String.prototype.repeat with source string as empty string
-includes: [runTestCase.js]
 es6id: 21.1.3.13
 ---*/
 
-function testcase() {
-    try {
-        var str = "";
-       return str.repeat(10).length===0;
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+var str = "";
+assert.sameValue(str.repeat(10).length, 0);
+

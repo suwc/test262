@@ -3,25 +3,20 @@
 
 /*---
 description: String.prototype.repeat with unicode characters
-includes: [runTestCase.js]
 es6id: 21.1.3.13
 ---*/
 
-function testcase() {
-    try {
-        var unicodeChars = ["\uD842\uDFB7","\u{20BB7}","𠮷"];
-        for(var i in unicodeChars){
-            var val = String.prototype.repeat.call(unicodeChars[i],1);
-            if(val!==unicodeChars[0] || val!==unicodeChars[1] || val!==unicodeChars[2]){
-                $ERROR("String.prototype.repeat returned incorrect result for unicode characters");
-                return false;
-            }
-        }
-        return true;
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
+function val(unicodeChars)
+{
+    return String.prototype.repeat.call(unicodeChars,1);
 }
-runTestCase(testcase);
+
+var unicodeChars = "\uD842\uDFB7";
+assert.sameValue(val(unicodeChars), unicodeChars);
+
+unicodeChars = "\u{20BB7}";
+assert.sameValue(val(unicodeChars), unicodeChars);
+
+unicodeChars = "𠮷";
+assert.sameValue(val(unicodeChars), unicodeChars);
+

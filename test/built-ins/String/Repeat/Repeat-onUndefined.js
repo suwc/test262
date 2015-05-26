@@ -3,17 +3,9 @@
 
 /*---
 description: String.prototype.repeat on undefined
-includes: [runTestCase.js]
 es6id: 21.1.3.13
+negative: TypeError
 ---*/
 
-function testcase() {
-    try {
-        String.prototype.repeat.call(undefined, 0);
-        return false;
-    }
-    catch (e) {
-        return true;
-    }
-}
-runTestCase(testcase);
+String.prototype.repeat.call(undefined,0);
+

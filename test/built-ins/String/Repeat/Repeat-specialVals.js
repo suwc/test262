@@ -3,25 +3,42 @@
 
 /*---
 description: String.prototype.repeat on special characters
-includes: [runTestCase.js]
 es6id: 21.1.3.13
 ---*/
 
-function testcase() {
-    try {
-        var specialVals = ["{", "[", "}", "]", "$", ".", "str\nstr", "\0\0", "&"];
-        for (var i in specialVals) {
-            var val = String.prototype.repeat.call(specialVals[i], 1);
-            if (val !== specialVals[i]) {
-                $ERROR("String.prototype.repeat did not work for " + specialVals[i]);
-                return false;
-            }
-        }
-        return true;
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return true;
-    }
-}
-runTestCase(testcase);
+var specialVal = "{";
+assert.sameValue(String.prototype.repeat.call(specialVal, 1), specialVal,
+    "String.prototype.repeat did not work for " + specialVal);
+
+specialVal = "[";
+assert.sameValue(String.prototype.repeat.call(specialVal, 1), specialVal,
+    "String.prototype.repeat did not work for " + specialVal);
+
+specialVal = "}";
+assert.sameValue(String.prototype.repeat.call(specialVal, 1), specialVal,
+    "String.prototype.repeat did not work for " + specialVal);
+
+specialVal = "]";
+assert.sameValue(String.prototype.repeat.call(specialVal, 1), specialVal,
+    "String.prototype.repeat did not work for " + specialVal);
+
+specialVal = "$";
+assert.sameValue(String.prototype.repeat.call(specialVal, 1), specialVal,
+    "String.prototype.repeat did not work for " + specialVal);
+
+specialVal = ".";
+assert.sameValue(String.prototype.repeat.call(specialVal, 1), specialVal,
+    "String.prototype.repeat did not work for " + specialVal);
+
+specialVal = "str\nstr";
+assert.sameValue(String.prototype.repeat.call(specialVal, 1), specialVal,
+    "String.prototype.repeat did not work for " + specialVal);
+
+specialVal = "\0\0";
+assert.sameValue(String.prototype.repeat.call(specialVal, 1), specialVal,
+    "String.prototype.repeat did not work for " + specialVal);
+
+specialVal = "&";
+assert.sameValue(String.prototype.repeat.call(specialVal, 1), specialVal,
+    "String.prototype.repeat did not work for " + specialVal);
+

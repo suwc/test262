@@ -3,28 +3,27 @@
 
 /*---
 description: String.prototype.repeat on non-string objects
-includes: [runTestCase.js]
 es6id: 21.1.3.13
 ---*/
 
-function testcase() {
-    try {
-        var obj = {};
-        obj.toString = function () { return "object"; }
-        var nonStringObj = [{}, new Uint8Array(10), new Array(9), new Error()];
-        for (var i in nonStringObj) {
-            var val = String.prototype.repeat.call(nonStringObj[i], 1);
-            if (val !== nonStringObj[i].toString()) {
-                $ERROR("String.prototype.repeat gives incorrect output for: " + nonStringObj[i]);
-                return false;
-            }
-        }
-        return true;
-
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
+function val(nonStringObj)
+{
+    return String.prototype.repeat.call(nonStringObj, 1);
 }
-runTestCase(testcase);
+
+var nonStringObj = {};
+assert.sameValue(val(nonStringObj), nonStringObj.toString(),
+    "String.prototype.repeat gives incorrect output for: " + nonStringObj);
+
+nonStringObj = new Uint8Array(10);
+assert.sameValue(val(nonStringObj), nonStringObj.toString(),
+    "String.prototype.repeat gives incorrect output for: " + nonStringObj);
+
+nonStringObj = new Array(9);
+assert.sameValue(val(nonStringObj), nonStringObj.toString(),
+    "String.prototype.repeat gives incorrect output for: " + nonStringObj);
+
+nonStringObj = new Error();
+assert.sameValue(val(nonStringObj), nonStringObj.toString(),
+    "String.prototype.repeat gives incorrect output for: " + nonStringObj);
+

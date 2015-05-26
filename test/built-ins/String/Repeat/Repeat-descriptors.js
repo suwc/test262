@@ -3,18 +3,11 @@
 
 /*---
 description: Validating descriptor for String.prototype.repeat
-includes: [runTestCase.js]
+includes: [propertyHelper.js]
 es6id: 21.1.3.13
 ---*/
 
-function testcase() {
-    try {
-        var desc = Object.getOwnPropertyDescriptor(String.prototype, "repeat");
-        return (desc.configurable === true && desc.writable === true && desc.enumerable === false);
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+verifyWritable(String.prototype, "repeat");
+verifyNotEnumerable(String.prototype, "repeat");
+verifyConfigurable(String.prototype, "repeat");
+

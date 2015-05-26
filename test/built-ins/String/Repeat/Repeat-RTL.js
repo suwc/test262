@@ -3,18 +3,9 @@
 
 /*---
 description: String.prototype.repeat with special characters
-includes: [runTestCase.js]
 es6id: 21.1.3.13
 ---*/
 
-function testcase() {
-    try {
-        var str = "اختبار تكرار";
-        return (str.repeat(1) === str);
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+var str = "اختبار تكرار";
+assert.sameValue(str.repeat(1), str);
+
