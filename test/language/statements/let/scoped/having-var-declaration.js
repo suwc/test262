@@ -7,7 +7,7 @@ description: >
     declaration on the outer-scope will give an error  if they share
     the same identifier name
 es6id: 13.3.1
-negative: CustomError
+negative: Test262Error
 ---*/
 
 try {

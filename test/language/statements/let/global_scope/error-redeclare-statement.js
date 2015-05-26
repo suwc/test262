@@ -6,7 +6,7 @@ description: >
     It should be an error to redeclare a let statement by a var
     statement with the same identifier from an eval inside a function
 es6id: 13.3.1
-negative: CustomError
+negative: Test262Error
 ---*/
 
 try {

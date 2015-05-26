@@ -6,7 +6,7 @@ description: >
     Having a let declaration inside an eval and assigning before
     initialization is an error
 es6id: 13.3.1
-negative: CustomError
+negative: Test262Error
 ---*/
 
 try {

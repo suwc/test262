@@ -5,7 +5,7 @@
 description: Source object has iterator
 includes: [TypedArrayHelper.js]
 es6id: 22.2.2.2
-negative: CustomError
+negative: Test262Error
 ---*/
 
 function CreateTypedArraysOfWithString(obj) {
