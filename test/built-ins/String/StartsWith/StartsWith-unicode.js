@@ -3,27 +3,19 @@
 
 /*---
 description: String.prototype.StartsWith with unicode values as search string.
-includes: [runTestCase.js]
 es6id: 21.1.3.18
 ---*/
 
-function testcase() {
-    try {
-        var unicodeChars = ["\uD842\uDFB7","\u{20BB7}","𠮷"];
-        for(var i in unicodeChars){
-            var val = unicodeChars[i];
-            if(val.startsWith(unicodeChars[0])!==true || val.startsWith(unicodeChars[1])!==true || val.startsWith(unicodeChars[2])!==true){
-                $ERROR("String.prototype.repeat returned incorrect result for unicode characters");
-                return false;
+var val0 = "\uD842\uDFB7";
+var val1 = "\u{20BB7}";
+var val2 = "𠮷";
+assert(val0.startsWith(val0));
+assert(val1.startsWith(val0));
+assert(val2.startsWith(val0));
+assert(val0.startsWith(val1));
+assert(val1.startsWith(val1));
+assert(val2.startsWith(val1));
+assert(val0.startsWith(val2));
+assert(val1.startsWith(val2));
+assert(val2.startsWith(val2));
 
-            }
-        }
-        var cu1 = "\uD842";  // testing with code unit
-        return unicodeChars[2].startsWith(cu1);
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);

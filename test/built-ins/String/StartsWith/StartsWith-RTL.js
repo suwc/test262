@@ -3,19 +3,10 @@
 
 /*---
 description: String.prototype.StartsWith with a RTL language
-includes: [runTestCase.js]
 es6id: 21.1.3.18
 ---*/
 
-function testcase() {
-    try {
-        var str = "اختبار تكرار";
-        var searchStr = str[0]+str[1];
-        return str.startsWith(searchStr);
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+var str = "اختبار تكرار";
+var searchStr = str[0]+str[1];
+assert(str.startsWith(searchStr));
+

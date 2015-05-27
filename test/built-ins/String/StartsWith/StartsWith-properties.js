@@ -3,23 +3,12 @@
 
 /*---
 description: String.prototype.StartsWith with different values of position
-includes: [runTestCase.js]
+includes: [propertyHelper.js]
 es6id: 21.1.3.18
 ---*/
 
-function testcase() {
-    try {
-        var desc = Object.getOwnPropertyDescriptor(String.prototype,"startsWith");
-        var len = String.prototype.startsWith.length;
-        if (desc.enumerable !== false && desc.configurable !== true && desc.writable !== true && len !== 1) {
-            $ERROR("String.prototype.startsWith has incorrect property values");
-            return false;
-        }
-        return true;
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+assert.sameValue(String.prototype.startsWith.length, 1);
+verifyWritable(String.prototype, "startsWith");
+verifyNotEnumerable(String.prototype, "startsWith");
+verifyConfigurable(String.prototype, "startsWith");
+

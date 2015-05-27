@@ -3,25 +3,28 @@
 
 /*---
 description: String.prototype.StartsWith with special characters
-includes: [runTestCase.js]
 es6id: 21.1.3.18
 ---*/
 
-function testcase() {
-    try {
-        var str = "[[]]{}{{}}&&%$...^*#";
-        for (var i in str) {
-            var val = str.startsWith(str.substring(i), i);
-            if (val != true) {
-                $ERROR("String.prototype.startsWith gives incorrect output for: " + str[i]);
-                return false;
-            }
-        }
-        return true;
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+var str = "[[]]{}{{}}&&%$...^*#";
+assert(str.startsWith("[", 0));
+assert(str.startsWith("[", 1));
+assert(str.startsWith("]", 2));
+assert(str.startsWith("]", 3));
+assert(str.startsWith("{", 4));
+assert(str.startsWith("}", 5));
+assert(str.startsWith("{", 6));
+assert(str.startsWith("{", 7));
+assert(str.startsWith("}", 8));
+assert(str.startsWith("}", 9));
+assert(str.startsWith("&", 10));
+assert(str.startsWith("&", 11));
+assert(str.startsWith("%", 12));
+assert(str.startsWith("$", 13));
+assert(str.startsWith(".", 14));
+assert(str.startsWith(".", 15));
+assert(str.startsWith(".", 16));
+assert(str.startsWith("^", 17));
+assert(str.startsWith("*", 18));
+assert(str.startsWith("#", 19));
+

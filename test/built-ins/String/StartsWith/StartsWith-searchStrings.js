@@ -4,27 +4,19 @@
 /*---
 es5id: tartsWith-searchStrings
 description: String.prototype.StartsWith with different values of search strings
-includes: [runTestCase.js]
 es6id: 21.1.3.18
 ---*/
 
-function testcase() {
-    try {
-        var str = "sample";
-        var searchStrs = [undefined, null, "samples","samble", " sample", "\0sample", "\n\nsample", "sample" + "sample"];
+var str = "sample";
+assert(!str.startsWith(undefined, 0));
+assert(!str.startsWith(null, 0));
+assert(!str.startsWith("samples", 0));
+assert(!str.startsWith("samble", 0));
+assert(!str.startsWith(" sample", 0));
+assert(!str.startsWith("\0sample", 0));
+assert(!str.startsWith("\n\nsample", 0));
+assert(!str.startsWith("sample" + "sample", 0));
 
-        for (var i in searchStrs) {
-            if (str.startsWith(searchStrs[i], 0)) {
-                $ERROR("String.prototype.startsWith gives incorrect output for: " +searchStrs[i]);
-                return false;
-            }
-        }
-        var str2 = "sample\0\nsample"
-        return str2.startsWith("sample", 8);
-    }
-    catch (e) {
-        $ERROR(e.message);
-        return false;
-    }
-}
-runTestCase(testcase);
+var str2 = "sample\0\nsample"
+assert(str2.startsWith("sample", 8));
+
