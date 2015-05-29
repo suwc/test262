@@ -3,10 +3,8 @@
 
 /*---
 description: Test ToInteger(pos)
-author: Murat Sutunc
 es6id: 21.1.3.3
 ---*/
 
-if (" ".codePointAt(false) !== 32) {
-    $ERROR("Expected 32, got " + " ".codePointAt(false) + " instead");
-}
+assert.sameValue(" ".codePointAt(false), 32);
+

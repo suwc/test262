@@ -3,13 +3,10 @@
 
 /*---
 description: Object should be coercible
-author: Murat Sutunc
 es6id: 21.1.3.3
 ---*/
 
 Object.prototype.codePointAt = String.prototype.codePointAt;
 var x = {0:"a"};
+assert.sameValue(x.codePointAt(0), 91, "Expected Object to be coercible");
 
-if (x.codePointAt(0) !== 91) {
-    $ERROR("Expected Object to be coercible, it isn't")
-}

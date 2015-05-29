@@ -3,10 +3,9 @@
 
 /*---
 description: If value is < 0 or value > 0x10FFFF throw RangeError
-author: Murat Sutunc
 es6id: 21.1.2.1
+negative: RangeError
 ---*/
 
-if (String.fromCodePoint(0) !== "\u0000") {
-    $ERROR("fromCodePoint(0) and \\u0000 should be equal")
-}
+String.fromCodePoint(0x110000);
+

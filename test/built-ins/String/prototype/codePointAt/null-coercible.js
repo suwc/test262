@@ -3,20 +3,9 @@
 
 /*---
 description: Null is not coercible
-author: Murat Sutunc
 es6id: 21.1.3.3
+negative: TypeError
 ---*/
 
-var error;
+"err".codePointAt.apply(null,[0,0]);
 
-try {
-    "err".codePointAt.apply(null,[0,0]);
-} catch(e) {
-    error = e;
-}
-
-if (error === undefined) {
-    $ERROR("Expected to throw an error but no error was thrown");
-} else if (error.name !== "TypeError") {
-    $ERROR("Expected to throw a TypeError but got " + error.name + " instead");
-}

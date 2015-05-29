@@ -3,13 +3,10 @@
 
 /*---
 description: Number should be coercible
-author: Murat Sutunc
 es6id: 21.1.3.3
 ---*/
 
 Number.prototype.codePointAt = String.prototype.codePointAt;
 var x = 1;
+assert.sameValue(x.codePointAt(0), 49, "Expected Number to be coercible");
 
-if (x.codePointAt(0) !== 49) {
-    $ERROR("Expected Number to be coercible, it isn't")
-}

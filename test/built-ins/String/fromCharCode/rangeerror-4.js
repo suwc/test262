@@ -2,9 +2,10 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-description: Test ToInteger(pos)
-es6id: 21.1.3.3
+description: If value and ToInteger(value) are not same throw a RangeError
+es6id: 21.1.2.1
+negative: RangeError
 ---*/
 
-assert.sameValue(" ".codePointAt("0"), 32);
+String.fromCodePoint(1.1);
 

@@ -3,13 +3,10 @@
 
 /*---
 description: Check boolean false
-author: Murat Sutunc
 es6id: 21.1.3.3
 ---*/
 
 Boolean.prototype.codePointAt = String.prototype.codePointAt;
 var x = false;
+assert.sameValue(x.codePointAt(0), 102, "Expected Boolean to be coercible");
 
-if (x.codePointAt(0) !== 102) {
-    $ERROR("Expected Boolean to be coercible, it isn't")
-}
