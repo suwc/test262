@@ -3,7 +3,6 @@
 
 /*---
 description: Spread empty array
-author: Nikhil Suryanarayanan
 es6id: 12.2.6.1
 ---*/
 

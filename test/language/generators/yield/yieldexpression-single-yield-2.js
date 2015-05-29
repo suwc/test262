@@ -3,7 +3,6 @@
 
 /*---
 description: "YieldExpression: Single yield statement"
-author: Nikhil Suryanarayanan
 es6id: 14.4.14
 ---*/
 

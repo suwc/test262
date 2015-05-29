@@ -3,7 +3,6 @@
 
 /*---
 description: 25.4.4 - length property (whose value is 1)
-author: Nikhil Suryanarayanan
 es6id: 25.4.4
 ---*/
 

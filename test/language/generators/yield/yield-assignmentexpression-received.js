@@ -5,7 +5,6 @@
 description: >
     yield * AssignmentExpression - received.[[type]] is throw. Check
     if iterator HasProperty "throw"
-author: Nikhil Suryanarayanan
 es6id: 14.4.14
 ---*/
 

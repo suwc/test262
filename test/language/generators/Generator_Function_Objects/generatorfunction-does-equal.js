@@ -3,7 +3,6 @@
 
 /*---
 description: GeneratorFunction.__proto__ does not equal Function.prototype
-author: Nikhil Suryanarayanan
 es6id: 25.2
 ---*/
 

@@ -3,7 +3,6 @@
 
 /*---
 description: 25.2.3.3 GeneratorFunction.prototype[@@toStringTag]
-author: Nikhil Suryanarayanan
 es6id: 25.2
 ---*/
 

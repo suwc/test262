@@ -3,7 +3,6 @@
 
 /*---
 description: Multiple Sread are allowed in the same function invocation
-author: Nikhil Suryanarayanan
 es6id: 12.2.6.1
 ---*/
 

@@ -3,7 +3,6 @@
 
 /*---
 description: spread element position in function
-author: Nikhil Suryanarayanan
 es6id: 12.2
 ---*/
 

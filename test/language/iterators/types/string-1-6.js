@@ -2,7 +2,6 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-author: Murat Sutunc
 description: string-1-6.js
 includes: [compareArray.js]
 es6id: 21.1.5

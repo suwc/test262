@@ -3,7 +3,6 @@
 
 /*---
 description: Yield in CoverGrammar
-author: Nikhil Suryanarayanan
 es6id: 14.4.14
 ---*/
 

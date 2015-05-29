@@ -2,7 +2,6 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-author: Kunal Pathak
 description: RegExp initialization takes sticky flag "y"
 es6id: 21.2.3.2.2
 ---*/

@@ -3,7 +3,6 @@
 
 /*---
 description: Generator.prototype [ @@iterator ]
-author: Nikhil Suryanarayanan
 es6id: 25.3
 ---*/
 

@@ -3,7 +3,6 @@
 
 /*---
 description: Spread can be positioned anywhere in the formal parameter list
-author: Nikhil Suryanarayanan
 es6id: 12.2.6.1
 ---*/
 

@@ -5,7 +5,6 @@
 description: >
     Yield should not be shadowed in a with block when inside a
     generator
-author: Nikhil Suryanarayanan
 flags: [noStrict]
 es6id: 14.4.14
 ---*/

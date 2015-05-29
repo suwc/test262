@@ -3,7 +3,6 @@
 
 /*---
 description: Create a generator object
-author: Nikhil Suryanarayanan
 es6id: 25.3
 ---*/
 

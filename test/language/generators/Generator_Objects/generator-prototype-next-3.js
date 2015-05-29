@@ -3,7 +3,6 @@
 
 /*---
 description: Generator.prototype.next(value)
-author: Nikhil Suryanarayanan
 es6id: 25.3
 ---*/
 

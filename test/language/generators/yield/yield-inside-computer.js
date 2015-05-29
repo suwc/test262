@@ -3,7 +3,6 @@
 
 /*---
 description: Yield inside a computer property
-author: Nikhil Suryanarayanan
 es6id: 14.4.14
 ---*/
 

@@ -3,7 +3,6 @@
 
 /*---
 description: Yield inside a computed property
-author: Nikhil Suryanarayanan
 es6id: 14.4.14
 ---*/
 

@@ -2,7 +2,6 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-author: Kunal Pathak
 description: "'y' flag is honored with RegExp.prototype.sticky"
 es6id: 21.2.5.12
 ---*/

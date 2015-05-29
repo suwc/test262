@@ -3,7 +3,6 @@
 
 /*---
 description: Capturing closure variables
-author: Nikhil Suryanarayanan
 es6id: 14.2
 ---*/
 

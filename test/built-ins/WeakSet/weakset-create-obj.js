@@ -6,7 +6,6 @@ description: >
     23.4.2.2 - WeakSet[@@create] - obj be the result of calling
     OrdinaryCreateFromConstructor(F, "%WeakSetPrototype%", (
     [[WeakSetData]] )).
-author: Nikhil Suryanarayanan
 es6id: 23.4.2.2
 ---*/
 

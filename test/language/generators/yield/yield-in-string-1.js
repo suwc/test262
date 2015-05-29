@@ -3,7 +3,6 @@
 
 /*---
 description: Yield in string concat
-author: Nikhil Suryanarayanan
 flags: [noStrict]
 es6id: 14.4.14
 ---*/

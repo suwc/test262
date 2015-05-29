@@ -3,7 +3,6 @@
 
 /*---
 description: Generator function can be named yield
-author: Nikhil Suryanarayanan
 es6id: 14.4.14
 ---*/
 

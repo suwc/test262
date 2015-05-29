@@ -3,7 +3,6 @@
 
 /*---
 description: // #D - GeneratorStart returns Normal Completion Generator
-author: Nikhil Suryanarayanan
 es6id: 25.3.3
 ---*/
 

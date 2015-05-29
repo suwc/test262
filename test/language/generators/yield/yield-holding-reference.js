@@ -3,7 +3,6 @@
 
 /*---
 description: Yield holding a reference to the returned object
-author: Nikhil Suryanarayanan
 es6id: 14.4.14
 ---*/
 

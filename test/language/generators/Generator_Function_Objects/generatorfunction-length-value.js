@@ -5,7 +5,6 @@
 description: >
     GeneratorFunction.length should be value:1 and { [[Writable]]:
     false, [[Enumerable]]: false, [[Configurable]]: true }
-author: Nikhil Suryanarayanan
 es6id: 25.2
 ---*/
 

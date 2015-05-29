@@ -6,7 +6,6 @@ description: >
     14.4.14 :  Let F be the result of performing the
     GeneratorFunctionCreate abstract operation with arguments Normal,
     FormalParameters, body, scope, and strict.
-author: Nikhil Suryanarayanan
 es6id: 14.4
 ---*/
 

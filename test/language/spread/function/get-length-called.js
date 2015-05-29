@@ -5,7 +5,6 @@
 description: >
     Get 'length' should not be called if assignmentexpression
     evaluation and conversion to object fails
-author: Nikhil Suryanarayanan
 es6id: 12.2.6.1
 ---*/
 

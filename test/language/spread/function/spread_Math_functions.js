@@ -3,7 +3,6 @@
 
 /*---
 description: Math max and Math min
-author: Nikhil Suryanarayanan
 es6id: 12.2.6.1
 ---*/
 

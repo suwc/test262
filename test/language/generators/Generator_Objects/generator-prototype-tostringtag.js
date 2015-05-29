@@ -6,7 +6,6 @@ description: >
     25.3.1.5    Generator.prototype [ @@toStringTag ] - The initial
     value of the @@toStringTag property is the string value
     "Generator".
-author: Nikhil Suryanarayanan
 es6id: 25.3
 ---*/
 

@@ -3,7 +3,6 @@
 
 /*---
 description: Arrow body is in non strict mode
-author: Nikhil Suryanarayanan
 flags: [nostrict]
 es6id: 14.2
 ---*/

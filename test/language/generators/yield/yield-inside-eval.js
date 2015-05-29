@@ -3,7 +3,6 @@
 
 /*---
 description: yield inside eval, inside a generator throws runtime error
-author: Nikhil Suryanarayanan
 flags: [onlyStrict]
 es6id: 14.4.14
 ---*/

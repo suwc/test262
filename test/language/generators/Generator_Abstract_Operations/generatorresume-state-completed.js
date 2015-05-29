@@ -5,7 +5,6 @@
 description: >
     GeneratorResume - If state is "completed", then return
     CreateIterResultObject(undefined, true)
-author: Nikhil Suryanarayanan
 es6id: 25.3.3
 ---*/
 

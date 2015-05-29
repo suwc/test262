@@ -5,7 +5,6 @@
 description: >
     CoverParanthesisedExpressionAndArrowParameterList is still valid
     without arrow function
-author: Nikhil Suryanrayanan
 es6id: 14.2
 ---*/
 

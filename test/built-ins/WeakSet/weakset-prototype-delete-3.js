@@ -5,7 +5,6 @@
 description: >
     23.4.3.4 - WeakSet.prototype.delete - 5. If Type(value) is not
     Object, then return false
-author: Nikhil Suryanarayanan
 es6id: 23.4.3.3
 ---*/
 

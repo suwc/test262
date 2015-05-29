@@ -5,7 +5,6 @@
 description: >
     yield * AssignmentExpression - If Type(iterator) is not Object,
     then throw a TypeError exception
-author: Nikhil Suryanarayanan
 es6id: 14.4.14
 ---*/
 

@@ -5,7 +5,6 @@
 description: >
     25.4.5.2 - initial value of Promise.prototype.constructor is the
     standard built-in Promise constructor
-author: Nikhil Suryanarayanan
 es6id: 25.4.5.2
 ---*/
 

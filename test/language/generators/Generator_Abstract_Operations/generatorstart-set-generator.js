@@ -5,7 +5,6 @@
 description: >
     // #D - GeneratorStart - 6.    Set generator’s [[GeneratorState]]
     internal slot to "suspendedStart".
-author: Nikhil Suryanarayanan
 es6id: 25.3.3
 ---*/
 

@@ -3,7 +3,6 @@
 
 /*---
 description: "YieldExpression: Return statment before encountering yield"
-author: Nikhil Suryanarayanan
 es6id: 14.4.14
 ---*/
 

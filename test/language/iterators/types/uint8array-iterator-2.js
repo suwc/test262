@@ -2,7 +2,6 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-author: Murat Sutunc
 description: uint8array-iterator-2.js
 es6id: 22.2
 ---*/

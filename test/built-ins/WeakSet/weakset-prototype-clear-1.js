@@ -5,7 +5,6 @@
 description: >
     23.4.3.2 - WeakSet.prototype.clear - 2. If Type(S) is not Object,
     then throw a TypeError exception
-author: Nikhil Suryanarayanan
 es6id: 23.4.3.1
 ---*/
 

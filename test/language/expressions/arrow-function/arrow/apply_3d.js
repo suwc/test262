@@ -3,7 +3,6 @@
 
 /*---
 description: invoke arrow function using apply - 'this' is lexically bound
-author: Nikhil Suryanarayanan
 es6id: 14.2
 ---*/
 

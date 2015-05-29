@@ -3,7 +3,6 @@
 
 /*---
 description: 23.4.3.6 - WeakSet.prototype[@@toStringTag]
-author: Ian Halliday
 es6id: 23.4.3
 ---*/
 

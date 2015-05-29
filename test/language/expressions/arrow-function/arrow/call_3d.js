@@ -3,7 +3,6 @@
 
 /*---
 description: invoke arrow function using call
-author: Nikhil Suryanarayanan
 es6id: 14.2
 ---*/
 

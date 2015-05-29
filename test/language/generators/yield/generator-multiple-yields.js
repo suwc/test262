@@ -3,7 +3,6 @@
 
 /*---
 description: Generator with multiple yields
-author: Nikhil Suryanarayanan
 es6id: 14.4.14
 ---*/
 

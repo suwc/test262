@@ -3,7 +3,6 @@
 
 /*---
 description: Usage of spread in string templates - Invalid operation
-author: Nikhil Suryanarayanan
 negative: SyntaxError
 es6id: 12.2.6.1
 ---*/

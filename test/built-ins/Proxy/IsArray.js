@@ -2,7 +2,6 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-author: Kunal Pathak
 description: Testing Array.IsArray for proxy
 es6id: 26.1
 ---*/

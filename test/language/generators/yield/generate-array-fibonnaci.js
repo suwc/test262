@@ -3,7 +3,6 @@
 
 /*---
 description: Generate array of fibonnaci series
-author: Nikhil Suryanarayanan
 es6id: 14.4.14
 ---*/
 

@@ -5,7 +5,6 @@
 description: >
     23.4.1.1 - 2.    If Type(set) is not Object then,  throw a
     TypeError exception.
-author: Nikhil Suryanarayanan
 es6id: 23.4.1
 ---*/
 

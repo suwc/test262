@@ -3,7 +3,6 @@
 
 /*---
 description: Spread JS Library Function
-author: Nikhil Suryanarayanan
 es6id: 12.2.6.1
 ---*/
 

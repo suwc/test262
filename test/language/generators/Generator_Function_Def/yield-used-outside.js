@@ -3,7 +3,6 @@
 
 /*---
 description: yield can be used outside a generator context
-author: Nikhil Suryanarayanan
 flags: [noStrict]
 es6id: 14.4
 ---*/

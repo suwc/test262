@@ -5,7 +5,6 @@
 description: >
     23.4.3.4 - WeakSet.prototype.delete - 3.    If S does not have a
     [[WeakSetData]] internal slot throw a TypeError exception.
-author: Nikhil Suryanarayanan
 es6id: 23.4.3.3
 ---*/
 

@@ -2,7 +2,6 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-author: Murat Sutunc
 description: of-of-of.js
 includes: [compareArray.js]
 es6id: 25.1

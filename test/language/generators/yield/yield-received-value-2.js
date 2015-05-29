@@ -5,7 +5,6 @@
 description: >
     Yield - received value has done property - generator should not
     consider this property
-author: Nikhil Suryanarayanan
 es6id: 14.4.14
 ---*/
 

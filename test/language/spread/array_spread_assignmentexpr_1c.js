@@ -3,7 +3,6 @@
 
 /*---
 description: Spreading an object with negative length property
-author: Nikhil Suryanarayanan
 es6id: 12.2.5.2
 negative: SyntaxError
 ---*/

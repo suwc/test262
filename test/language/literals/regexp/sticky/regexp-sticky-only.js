@@ -2,7 +2,6 @@
 // This code is governed by the license found in the LICENSE file.
 
 /*---
-author: Kunal Pathak
 path: sticky/22.2.2/22.2.2.6.1.js
 description: RegExp sticky with '^' only matches at beginning of input.
 es6id: 21.2.2.6

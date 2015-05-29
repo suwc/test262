@@ -7,7 +7,6 @@ description: >
     function * BindingIdentifier opt ( FormalParameters ) {
     FunctionBody }  is strict code, the Early Error rules for
     StrictFormalParameters : FormalParameters are applied.
-author: Nikhil Suryanarayanan
 flags: [noStrict]
 es6id: 14.4
 ---*/

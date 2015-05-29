@@ -3,7 +3,6 @@
 
 /*---
 description: "YieldExpression: In if statement"
-author: Nikhil Suryanarayanan
 es6id: 14.4.14
 ---*/
 

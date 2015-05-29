@@ -5,7 +5,6 @@
 description: >
     BindingIdentifier can be accessed inside the generatorbody and can
     be called recursively
-author: Nikhil Suryanarayanan
 es6id: 14.4
 ---*/
 

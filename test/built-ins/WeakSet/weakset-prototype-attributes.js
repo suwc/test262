@@ -5,7 +5,6 @@
 description: >
     23.4.2.1 - WeakSet.prototype has attributes { [[Writable]]: false,
     [[Enumerable]]: false, [[Configurable]]: false }.
-author: Nikhil Suryanarayanan
 es6id: 23.4.2.1
 ---*/
 

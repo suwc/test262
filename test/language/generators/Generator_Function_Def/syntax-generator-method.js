@@ -3,7 +3,6 @@
 
 /*---
 description: 14.4 - Syntax - Generator Method Testing propertyName
-author: Nikhil Suryanarayanan
 es6id: 14.4
 ---*/
 

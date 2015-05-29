@@ -3,7 +3,6 @@
 
 /*---
 description: 25.4.5.2 - Promise.prototype.constructor
-author: Nikhil Suryanarayanan
 es6id: 25.4.5.2
 ---*/
 

@@ -3,7 +3,6 @@
 
 /*---
 description: 14.4.14 - BindingIndentifier name should not be hoisted
-author: Nikhil Suryanarayanan
 es6id: 14.4
 ---*/
 

@@ -3,7 +3,6 @@
 
 /*---
 description: yield * {} throws TypeError
-author: Nikhil Suryanarayanan
 es6id: 14.4.14
 ---*/
 
