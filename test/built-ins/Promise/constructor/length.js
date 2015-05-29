@@ -7,5 +7,4 @@ author: Nikhil Suryanarayanan
 es6id: 25.4.4
 ---*/
 
-if(Promise.constructor.length !== 1)
-    $ERROR("Length expected to be 1");
+assert.sameValue(Promise.constructor.length, 1, "Length expected to be 1");

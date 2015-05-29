@@ -3,9 +3,7 @@
 
 /*---
 description: Promise.reject
-author: Nikhil Suryanarayanan
 es6id: 25.4.4
 ---*/
 
-if(Promise.reject === undefined)
-    $ERROR('Reject is not defined on Promise');
+assert.notSameValue(Promise.reject, undefined, 'Reject is not defined on Promise');

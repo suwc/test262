@@ -5,10 +5,11 @@
 description: >
     Promise.prototype has attributes { [[Writable]]: false,
     [[Enumerable]]: false, [[Configurable]]: false }
-author: Nikhil Suryanarayanan
+includes: [propertyHelper.js]
 es6id: 25.4.4
 ---*/
 
-var desc = Object.getOwnPropertyDescriptor(Promise, "prototype");
-if(desc.writable !== false || desc.enumerable !== false || desc.configurable !== false)
-    $ERROR("Error in descriptor");
+verifyNotWritable(Promise, "prototype");
+verifyNotEnumerable(Promise, "prototype");
+verifyNotConfigurable(Promise, "prototype");
+

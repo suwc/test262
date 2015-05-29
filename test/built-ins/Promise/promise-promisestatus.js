@@ -5,14 +5,9 @@
 description: >
     Promise - 3.    4.    If promise does not have a [[PromiseStatus]]
     internal slot, then throw a TypeError exception.
-author: Nikhil Suryanarayanan
 es6id: 25.4.3
+negative: TypeError
 ---*/
 
-try{
-    Promise.call({}, function(f,r){});
-    $ERROR('Error Expected');
-}catch(e){
-    if(!(e instanceof TypeError ))
-        $ERROR('TypeError Expected')
-}
+Promise.call({}, function(f,r){});
+

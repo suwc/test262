@@ -7,5 +7,5 @@ author: Nikhil Suryanarayanan
 es6id: 25.4.5.2
 ---*/
 
-if(Promise.prototype.constructor === undefined)
-    $ERROR('Promise.prototype.ctor is undefined')
+assert.notSameValue(Promise.prototype.constructor, undefined,
+    'Promise.prototype.ctor is undefined');

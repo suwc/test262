@@ -9,5 +9,5 @@ author: Nikhil Suryanarayanan
 es6id: 25.4.5.2
 ---*/
 
-if(Promise.prototype.constructor !== Promise)
-    $ERROR("Initial value of Promise.prototype.ctor is incorrect");
+assert.sameValue(Promise.prototype.constructor, Promise,
+    "Initial value of Promise.prototype.ctor is incorrect");

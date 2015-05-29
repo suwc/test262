@@ -5,14 +5,9 @@
 description: >
     Promise - 3.    If Type(promise) is not Object, then throw a
     TypeError exception.
-author: Nikhil Suryanarayanan
 es6id: 25.4.3
+negative: TypeError
 ---*/
 
-try{
-    Promise.call(undefined, function(f,r){});
-    $ERROR('Test Failed');
-}catch(e){
-    if(!(e instanceof TypeError))
-        $ERROR("TypeError Expected");
-}
+Promise.call(undefined, function(f,r){});
+
